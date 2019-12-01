@@ -1,5 +1,7 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/whatsapp-button)
 
+[![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/whatsapp-button)
+
 # \<whatsapp-button>
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
@@ -29,7 +31,7 @@ then import
 ```
 -->
 ```html
-    <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
+<whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 ```
 
 ## Linting with ESLint, Prettier, and Types
