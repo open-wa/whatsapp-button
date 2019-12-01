@@ -6,6 +6,10 @@
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/smashah/whatsapp-button.git"
+  },
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
