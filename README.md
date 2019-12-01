@@ -10,19 +10,24 @@ npm i whatsapp-button
 ```
 
 ## Usage
-```html
-<script type="module">
-  import 'whatsapp-button/whatsapp-button.js';
-</script>
-
+<!--
+```
 <custom-element-demo>
   <template>
 <script type="module">
   import './whatsapp-button.js';
 </script>
-    <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
+    <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
+```
+-->
+```html
+<script type="module">
+  import 'whatsapp-button/whatsapp-button.js';
+</script>
+
+    <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 ```
 
 ## Linting with ESLint, Prettier, and Types
