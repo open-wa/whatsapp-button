@@ -8,7 +8,13 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 ```bash
 npm i whatsapp-button
 ```
+then import
 
+```html
+<script type="module">
+  import 'whatsapp-button/whatsapp-button.js';
+</script>
+```
 ## Usage
 <!--
 ```
@@ -23,10 +29,6 @@ npm i whatsapp-button
 ```
 -->
 ```html
-<script type="module">
-  import 'whatsapp-button/whatsapp-button.js';
-</script>
-
     <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 ```
 
