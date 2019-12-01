@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import '../whatsapp-button.js';
+
+    render(
+      html`
+        <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat">
+        </whatsapp-button>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

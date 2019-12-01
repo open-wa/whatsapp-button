@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../whatsapp-button.js';
+
+<Meta 
+  title="WhatsappButton"
+  parameters={{
+    component: "whatsapp-button",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# WhatsappButton
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add whatsapp-button
+```
+
+```js
+import 'whatsapp-button/whatsapp-button.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <whatsapp-button></whatsapp-button>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="whatsapp-button" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Title">
+  {html`
+    <whatsapp-button .title=${'Hello World'}></whatsapp-button>
+  `}
+</Story>

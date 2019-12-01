@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "whatsapp-button",
+      "description": "A simple button to start a whatsapp conversation.",
+      "properties": [
+        {
+          "name": "title",
+          "type": "String",
+          "description": "Whatsapp Button",
+          "default": "Hey there"
+        },
+        {
+          "name": "counter",
+          "type": "Number",
+          "description": "An action counter",
+          "default": 0
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--whatsapp-button-text-color",
+          "description": "Main Text Color",
+          "type": "Color"
+        }
+      ]
+    }
+  ]
+}
