@@ -1,14 +1,14 @@
 {
   "name": "whatsapp-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webcomponent whatsapp-button following open-wc recommendations",
   "author": "whatsapp-button",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/smashah/whatsapp-button.git"
+    "type": "git",
+    "url": "https://github.com/smashah/whatsapp-button.git"
   },
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
