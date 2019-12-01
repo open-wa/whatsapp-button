@@ -13,7 +13,7 @@ npm i whatsapp-button
   import 'whatsapp-button/whatsapp-button.js';
 </script>
 
-<whatsapp-button></whatsapp-button>
+<whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 ```
 
 ## Linting with ESLint, Prettier, and Types
