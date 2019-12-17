@@ -41,6 +41,7 @@ Or grab from [unpkg.com CDN](https://unpkg.com/whatsapp-button?module):
 ```
 <custom-element-demo>
   <template>
+<script src="https://unpkg.com/whatsapp-button?module" type="module"></script>
 <script type="module">
   import './whatsapp-button.js';
 </script>
