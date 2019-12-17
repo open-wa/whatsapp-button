@@ -154,3 +154,6 @@ npm start:compatibility
 ```
 
 To run a local development server in compatibility mode for older browsers that serves the basic demo located in `demo/index.html`
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/0lUd5Y3
