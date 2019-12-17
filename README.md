@@ -1,5 +1,7 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/whatsapp-button) [![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/whatsapp-button)
 
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
 # \<whatsapp-button>
 
 Easily start WhatsApp conversations! Based on [@material/mwc-button](https://github.com/material-components/material-components-web-components#readme).
