@@ -1,16 +1,17 @@
 {
   "name": "whatsapp-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Webcomponent whatsapp-button following open-wc recommendations",
-  "author": "whatsapp-button",
+  "author": "Mohammed Shah <@smashah>",
   "license": "MIT",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "lib/WhatsappButton.js",
+  "module": "lib/WhatsappButton.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/smashah/whatsapp-button.git"
   },
   "scripts": {
+    "build": "tsc",
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
     "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
@@ -39,6 +40,7 @@
     "@open-wc/testing": "^2.0.0",
     "@open-wc/testing-karma": "^3.0.0",
     "@open-wc/testing-karma-bs": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
     "es-dev-server": "^1.5.0",
     "eslint": "^6.1.0",
     "husky": "^1.0.0",

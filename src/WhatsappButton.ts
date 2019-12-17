@@ -1,6 +1,9 @@
-import { css, svg } from 'lit-element';
+// @ts-ignore
+import { css, svg, customElement } from 'lit-element';
 import { Button } from '@material/mwc-button';
 
+@customElement('whatsapp-button')
+// @ts-ignore
 export class WhatsappButton extends Button {
   static get properties() {
     return {
@@ -71,11 +74,16 @@ export class WhatsappButton extends Button {
     this.label = "Let's chat";
     this.outlined = true;
     this.trailingIcon = true;
+// @ts-ignore
     this.dialcode = '';
+// @ts-ignore
     this.phone = '';
+// @ts-ignore
     this.text = '';
     this.onclick = () => {
+// @ts-ignore
       if (window.ga)
+// @ts-ignore
         window.ga('gtm1.send', {
           hitType: 'event',
           eventCategory: 'Buttons',
@@ -83,6 +91,7 @@ export class WhatsappButton extends Button {
           eventLabel: 'wa-start-message',
         });
       window.open(
+// @ts-ignore
         `https://api.whatsapp.com/send?phone=${this.dialcode}${this.phone}&text=${this.text}`,
       );
     };

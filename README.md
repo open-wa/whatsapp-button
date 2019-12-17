@@ -15,6 +15,13 @@ then import
   import 'whatsapp-button/whatsapp-button.js';
 </script>
 ```
+
+Or grab from [unpkg.com CDN](https://unpkg.com/whatsapp-button?module):
+
+```html
+<script src="https://unpkg.com/whatsapp-button?module" type="module"></script>
+```
+
 ## Usage
 <!--
 ```
@@ -28,12 +35,17 @@ then import
 </custom-element-demo>
 ```
 -->
+
 ```html
 <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
 ```
 
+You can check out an example of it working here: [JsFiddle](https://jsfiddle.net/8cgwvmbd/1/)
+
 ## Linting with ESLint, Prettier, and Types
+
 To scan the project for linting errors, run
+
 ```bash
 npm run lint
 ```
