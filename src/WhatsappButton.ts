@@ -92,7 +92,7 @@ export class WhatsappButton extends Button {
         });
       window.open(
 // @ts-ignore
-        `https://api.whatsapp.com/send?phone=${this.dialcode}${this.phone}&text=${this.text}`,
+        `https://api.whatsapp.com/send?phone=${this.dialcode}${this.phone}&text=${encodeURIComponent(this.text)}`,
       );
     };
   }
