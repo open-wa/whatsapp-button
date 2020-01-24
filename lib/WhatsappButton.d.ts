@@ -1,17 +1,10 @@
 import { Button } from '@material/mwc-button';
-export declare class WhatsappButton extends Button {
-    static readonly properties: {
-        phone: {
-            type: StringConstructor;
-        };
-        text: {
-            type: StringConstructor;
-        };
-        dialcode: {
-            type: StringConstructor;
-        };
-    };
-    static readonly styles: any[];
+declare class WhatsappButton extends Button {
+    phone: string;
+    text: string;
+    dialcode: string;
+    static readonly styles: import("lit-element").CSSResult[];
     constructor();
 }
+export { WhatsappButton };
 //# sourceMappingURL=WhatsappButton.d.ts.map

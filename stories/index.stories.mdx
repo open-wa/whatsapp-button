@@ -1,9 +1,10 @@
-import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+import { Story, Preview, Meta, Props, html, withKnobs,withWebComponentsKnobs } from '@open-wc/demoing-storybook';
 
 import '../whatsapp-button.js';
 
 <Meta 
   title="WhatsappButton"
+  decorators={[withKnobs, withWebComponentsKnobs]}
   parameters={{
     component: "whatsapp-button",
     options: { selectedPanel: "storybookjs/knobs/panel" }

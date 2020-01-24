@@ -1,1 +1,1 @@
-export { WhatsappButton } from './src/WhatsappButton.js';
+export { WhatsappButton } from './lib/WhatsappButton.js';
