@@ -1966,12 +1966,12 @@
     request "^2.88.0"
 
 "@open-wc/prettier-config@^0.1.10":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@open-wc/prettier-config/-/prettier-config-0.1.12.tgz#1e9ce6cbfcfe43072fa593858edf2aa5d9b96c6e"
-  integrity sha512-EN7+qvhSCgf7cYxlsilF7zUMjlzW6DI7iis6Z2kW0dW+f/EKXpOlvyRxZc3oAbSMjlt4m99M19oRDIXsZVYIEQ==
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@open-wc/prettier-config/-/prettier-config-0.1.14.tgz#ee5fa9953b8795fd5df92cfa243f1bdab565c5a3"
+  integrity sha512-b30hqVLZLOvtGR0p3cmSvEYnu+OeKA1N/3v8m2u1bRt44+gVHkSOhf2/E90i8gveA6Maz98f0EwYFk03XEM/CA==
   dependencies:
     eslint-config-prettier "^3.3.0"
-    prettier "^1.18.2"
+    prettier "^1.19.1"
 
 "@open-wc/semantic-dom-diff@^0.13.16":
   version "0.13.21"
@@ -7738,7 +7738,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^1.16.4, prettier@^1.18.2:
+prettier@^1.16.4, prettier@^1.19.1:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
