@@ -4,7 +4,9 @@ import '../whatsapp-button.js';
 
 <Meta 
   title="WhatsappButton"
-  decorators={[withKnobs, withWebComponentsKnobs]}
+  decorators={[withKnobs({
+    escapeHTML: false,
+  }), withWebComponentsKnobs]}
   parameters={{
     component: "whatsapp-button",
     options: { selectedPanel: "storybookjs/knobs/panel" }
