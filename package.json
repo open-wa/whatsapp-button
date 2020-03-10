@@ -30,10 +30,13 @@
     "sbbad": "npm run storybook:build && npm run deploy-storybook"
   },
   "dependencies": {
-    "@material/mwc-button": "0.11.0",
+    "@material/mwc-button": "0.13.0",
     "@polymer/polymer": "^3.3.1",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
     "lit-element": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-html": "^1.0.0",
+    "storybook-addon-web-components-knobs": "^0.3.1"
   },
   "devDependencies": {
     "@open-wc/demoing-storybook": "^1.0.1",

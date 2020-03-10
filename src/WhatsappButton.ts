@@ -1,12 +1,6 @@
 import { css, svg, customElement, property } from 'lit-element';
 import { Button } from '@material/mwc-button';
 
-// declare global {
-//   interface Window {
-//       ga:any;
-//   }
-// }
-
 @customElement('whatsapp-button')
 //@ts-ignore
 class WhatsappButton extends Button {
