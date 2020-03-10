@@ -1571,38 +1571,6 @@
     rollup-plugin-terser "^5.1.0"
     rollup-plugin-workbox "^4.0.0"
 
-"@open-wc/building-utils@^2.15.0":
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.15.0.tgz#985dc466020356b9ce4e2cc4a17fb3e325a104f6"
-  integrity sha512-EGYL17pyr5WB27TFvbunkzzx/9MqrjgDTQ7BQ8lw1NuvOOAvAguO3VfPI5mnK4lC+q5XIUnkmBpl9qzvbMzz2g==
-  dependencies:
-    "@babel/core" "^7.8.3"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@webcomponents/shadycss" "^1.9.4"
-    "@webcomponents/webcomponentsjs" "^2.4.0"
-    arrify "^2.0.1"
-    browserslist "^4.7.2"
-    chokidar "^3.0.0"
-    clean-css "^4.2.1"
-    clone "^2.1.2"
-    core-js-bundle "^3.6.0"
-    deepmerge "^3.2.0"
-    es-module-shims "^0.4.6"
-    html-minifier "^4.0.0"
-    lru-cache "^5.1.1"
-    minimatch "^3.0.4"
-    parse5 "^5.1.1"
-    path-is-inside "^1.0.2"
-    regenerator-runtime "^0.13.3"
-    resolve "^1.11.1"
-    rimraf "^3.0.0"
-    shady-css-scoped-element "^0.0.1"
-    systemjs "^4.0.0"
-    terser "^4.6.4"
-    valid-url "^1.0.9"
-    whatwg-fetch "^3.0.0"
-    whatwg-url "^7.0.0"
-
 "@open-wc/building-utils@^2.15.1":
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.15.1.tgz#67777e4601b0ac8b43933b9805390640e8565d8a"
@@ -1682,16 +1650,16 @@
     eslint-plugin-no-only-tests "^2.4.0"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/karma-esm@^2.13.12":
-  version "2.13.12"
-  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.12.tgz#71b21394c956a59609b2b7551d1ac3372b750ac3"
-  integrity sha512-azGPAXgM2kmIEO47GggC6FDOTjh10lkYFJAdclWhhJVPkqNxel0A26OKja/OsCeFisLx6VczN0WgyGmIeGJ0YA==
+"@open-wc/karma-esm@^2.13.14":
+  version "2.13.14"
+  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.14.tgz#215b834ddd8ea472b6593311346aa4aa766db9af"
+  integrity sha512-ymQAY4rtoGJRIZzlnZaiAT3MWtaEAtHsDk99U8oSn9RPYj9rsvWsSO3lXUf8F8P3WkYQHSG/jNyaXxCn+R03EQ==
   dependencies:
-    "@open-wc/building-utils" "^2.15.0"
+    "@open-wc/building-utils" "^2.15.1"
     babel-plugin-istanbul "^5.1.4"
     chokidar "^3.0.0"
     deepmerge "^3.2.0"
-    es-dev-server "^1.42.0"
+    es-dev-server "^1.43.0"
     minimatch "^3.0.4"
     node-fetch "^2.6.0"
     portfinder "^1.0.21"
@@ -1730,11 +1698,11 @@
     karma-browserstack-launcher "^1.0.0"
 
 "@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.2.7":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.1.tgz#d66b59ea807a13308a81807eac5b0e73fc8f925e"
-  integrity sha512-6NXB+wh+L0LSsK11l7WklCcnb4bGk1cpD3ABA/QJ1Ml4lbLklB1ZCNVsPIOkdjuwjkp/rfCa8Opf482h0xr87w==
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.3.tgz#dbdf0420f45da4aedae40f3eae95c8e00fadb7a9"
+  integrity sha512-I5/wxjA6r921+PRRIAH+AgdkTnDCWMNTvEiXe109Yxs64kBUE5StcEkQAvFiewIVgzks9nKy8ULn35t5MHcqqg==
   dependencies:
-    "@open-wc/karma-esm" "^2.13.12"
+    "@open-wc/karma-esm" "^2.13.14"
     axe-core "^3.3.1"
     karma "^4.1.0"
     karma-chrome-launcher "^3.1.0"
@@ -4046,7 +4014,7 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.42.0, es-dev-server@^1.43.0, es-dev-server@^1.5.0:
+es-dev-server@^1.43.0, es-dev-server@^1.5.0:
   version "1.43.0"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.43.0.tgz#3807f738f011ee386daad3de6abd0b2f93acf96f"
   integrity sha512-m7Y4C1Gfy6zZLh/53r+tSgN/+GxmaF+5wHjwSQ+XG7C6QO2UAuBLTR2j73VIKpQZAF1o9VkzEyjvchq3sl3Jww==
@@ -8886,11 +8854,6 @@ setprototypeof@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
-
-shady-css-scoped-element@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/shady-css-scoped-element/-/shady-css-scoped-element-0.0.1.tgz#e386ff2228bb3677376985a34d65101372ed66dc"
-  integrity sha512-86NPanHuXXTayw0psXbqMBU11rptlhAU17N3ZVxWYm6/KxMc02M/l6gGAEUb2Jff7W3Ur/ARWufPKmm/nNOU2g==
 
 shady-css-scoped-element@^0.0.2:
   version "0.0.2"
