@@ -48,7 +48,7 @@
     "@typescript-eslint/eslint-plugin": "^2.17.0",
     "es-dev-server": "^1.5.0",
     "eslint": "^6.1.0",
-    "husky": "^1.0.0",
+    "husky": "^4.2.3",
     "lint-staged": "^8.0.0",
     "webpack-merge": "^4.1.5"
   },
