@@ -2328,10 +2328,10 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.13.21.tgz#718b9ec5f9a98935fc775e577ad094ae8d8b7dea"
   integrity sha512-BONpjHcGX2zFa9mfnwBCLEmlDsOHzT+j6Qt1yfK3MzFXFtAykfzFjAgaxPetu0YbBlCfXuMlfxI4vlRGCGMvFg==
 
-"@open-wc/semantic-dom-diff@^0.15.4":
-  version "0.15.4"
-  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.15.4.tgz#1bbf9adbbf3cb6090f525fc7d4274d17cc016457"
-  integrity sha512-Wa50FJiB26/jC++snNqOJBr3cYrzUdsFFNLL3HSA7PAscCWEGo5NAdesL/BnehXOCRyMZfpvv+uY9+F8dc7HCQ==
+"@open-wc/semantic-dom-diff@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.3.tgz#f653fc505dfb900e963937d7c78bf5dd3d1bb274"
+  integrity sha512-Qj2pC6DoEFLfo1lwGG/03DkWhrY+yDVbr5zVEIA/e76WjAvXE6VrjJN2Ip7eEjTIsTz+7wsQJNWGMNIXyusN5g==
 
 "@open-wc/storybook-prebuilt@^0.0.6":
   version "0.0.6"
@@ -2339,11 +2339,6 @@
   integrity sha512-pBk3u1t6a1zRHGFGOyCuu9myIHqCfUOMZGwj+A3ZnE6Hvac6WdbPnL1rNlFypD7AV1A35GteL0J5ywdInmokdg==
   dependencies:
     standard-version "^7.0.1"
-
-"@open-wc/testing-helpers@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.4.0.tgz#d93b627c1311a1ad2b5fc4de43fc6f9fa8a79177"
-  integrity sha512-XTR0HGOSBEJz7H31FDhHD2R6GHXI6DksiJsYDzJdLXqF/ORkKFzfu1BXGVOnPZytmJZLvnEr7VmE2YfV0y2Yug==
 
 "@open-wc/testing-helpers@^1.6.0":
   version "1.6.0"
@@ -2377,19 +2372,19 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.4.1.tgz#d9c2609037c7f077cb3ec4f729becfe4e46dee19"
-  integrity sha512-6y60ISe2VCGiGcII2lRQSp75BNalfP9uSYvZr+gPzqf7m9m1H3LIDcgxUEjbOVOycPuWCmv/0auRsGOQ6rT7Pw==
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.6.tgz#4d4559f81aa108387c7d9bda27bb65f7614762d1"
+  integrity sha512-D4eb+v5+c5id0IxhieRrKWqxRfrQDOCZAtYrJL3MaybzEPABAuk0teRIVTV4ZUiNclRzFNp7QwnsEZlX/PkL0g==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
-    "@open-wc/semantic-dom-diff" "^0.15.4"
-    "@open-wc/testing-helpers" "^1.4.0"
+    "@open-wc/semantic-dom-diff" "^0.17.3"
+    "@open-wc/testing-helpers" "^1.6.0"
     "@types/chai" "^4.1.7"
     "@types/chai-dom" "^0.0.8"
     "@types/mocha" "^5.0.0"
     "@types/sinon-chai" "^3.2.3"
     chai "^4.2.0"
-    chai-a11y-axe "^1.2.2"
+    chai-a11y-axe "^1.2.3"
     chai-dom "^1.8.1"
     mocha "^6.2.2"
     sinon-chai "^3.3.0"
@@ -3976,10 +3971,10 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chai-a11y-axe@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/chai-a11y-axe/-/chai-a11y-axe-1.2.2.tgz#90cfda8f352328951de5ad18a2ad6a8eb742cfd9"
-  integrity sha512-T1QjDQ7bVKTc2vlJWA6Rh18qZE8uHhNaNdb7V0nF7TLYwso03ycWvRJWFLtdLtf6l9v/JOCamKDNo7PzbVQyAg==
+chai-a11y-axe@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/chai-a11y-axe/-/chai-a11y-axe-1.2.3.tgz#8ad34be265023ac9ea9a40ff5c7fe7723ff0682d"
+  integrity sha512-cjZXy4I/GvT/ibQS/Pw3Dz/QaEM+ZfWx5m9Twqcc0HEAWuDpCrf20LRsa84lx5BwdOawkalk0ehmXESWN3hBNw==
 
 chai-dom@^1.8.1:
   version "1.8.1"
