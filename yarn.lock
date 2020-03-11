@@ -2226,17 +2226,17 @@
     whatwg-fetch "^3.0.0"
     whatwg-url "^7.0.0"
 
-"@open-wc/building-utils@^2.15.2":
-  version "2.15.2"
-  resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.15.2.tgz#7217af019cfe1352cf42273c60ec020543594533"
-  integrity sha512-FuQuICRfjhHCUtuJCel9albeVP3KKPFymkPg/CuY1Md/gWrac2tNrWz6JoU/25dF4boE3rIoYIS2l/o0yqHlzQ==
+"@open-wc/building-utils@^2.16.0":
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.16.0.tgz#ff57a5fa4753e581fa2ef988d1aab00f79b0ef41"
+  integrity sha512-vhU65I0lq3/FMmu1yQL2Q8RFQ8ElLP0Trlwn267sdvA+XKJ2TV5ulHGwVggizVnS6f8O1cu2jLUdmK2SmznsYg==
   dependencies:
     "@babel/core" "^7.8.3"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@webcomponents/shadycss" "^1.9.4"
     "@webcomponents/webcomponentsjs" "^2.4.0"
     arrify "^2.0.1"
-    browserslist "^4.7.2"
+    browserslist "^4.9.1"
     chokidar "^3.0.0"
     clean-css "^4.2.1"
     clone "^2.1.2"
@@ -2300,16 +2300,16 @@
     eslint-plugin-no-only-tests "^2.3.1"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/karma-esm@^2.13.15":
-  version "2.13.15"
-  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.15.tgz#14641996ed38cd288f80e08a825fe9bed722940e"
-  integrity sha512-oiNvIa3jBZikjLPMkIRCfMWl2Wxadev9axAOdQw8UzUmJnbdytCJhjqArOeNuUyZSO5PMRK5eBzBSSvqKDE2fw==
+"@open-wc/karma-esm@^2.13.16":
+  version "2.13.16"
+  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.16.tgz#e52fa907bfdacc8a95f010255ae1d9c646a35917"
+  integrity sha512-46KBikyrYamHxkjIbAvxu2BcSpQNsQpPla3CqsSX9vA/HHi0Uc3mKCJzBmyXZ8LWF0/+P/9EqGEH/fceRLfSZg==
   dependencies:
-    "@open-wc/building-utils" "^2.15.2"
+    "@open-wc/building-utils" "^2.16.0"
     babel-plugin-istanbul "^5.1.4"
     chokidar "^3.0.0"
     deepmerge "^3.2.0"
-    es-dev-server "^1.43.1"
+    es-dev-server "^1.44.0"
     minimatch "^3.0.4"
     node-fetch "^2.6.0"
     portfinder "^1.0.21"
@@ -2351,20 +2351,20 @@
   integrity sha512-T5ZcfMER9oswf49VeflO1VX+lFdAMOpBQlpQFBpI6WLid3fekbKgnPSsSdl5jOlXhhT4rGaDp8EBqVju+Fk8kg==
 
 "@open-wc/testing-karma-bs@^1.0.0":
-  version "1.3.48"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.48.tgz#9a33e30c98db2efbfed22f46b81b3c6e2e85ee52"
-  integrity sha512-YjukdBxaQJmVkO9f9/Woc2QtqV/qJYKIUeQ/sYtluLix6qNI06IqY/fiMHGCcpI+X9HmTwWR+Nlk/x9MpEDSug==
+  version "1.3.49"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.49.tgz#e78a7f435407126385b610154abbfa9674419215"
+  integrity sha512-g7X6sYJSQXjD1x1EDR0s29IfSo8x7WCSg6wyzhp1PkKA0q+seRqPFGOhx5cdfzTeZmD6AfpyY1B/L0jb9fLeRg==
   dependencies:
-    "@open-wc/testing-karma" "^3.3.4"
+    "@open-wc/testing-karma" "^3.3.5"
     "@types/node" "^11.13.0"
     karma-browserstack-launcher "^1.0.0"
 
-"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.4":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.4.tgz#74de774c262e7fe4a0c533d28f7ed8109b7225ee"
-  integrity sha512-HT752hOo2kcQlytN2LQqLqG7hnQcoMOR4fh6zi7jwgwPZjqi848iLNflzvsoyDswmoT6ovl8GjQHNnyHIfZiAw==
+"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.5.tgz#200dea76c22b34f00eab9bec8c37b10df94c6004"
+  integrity sha512-6iVJkvmJ+Gejrky+49/j7mr/J4ucLkmv5hUmEki86nynT//3tcQInu22De0pYVwsB25ZuwGnlZ+hgBj/EKGZCQ==
   dependencies:
-    "@open-wc/karma-esm" "^2.13.15"
+    "@open-wc/karma-esm" "^2.13.16"
     axe-core "^3.3.1"
     karma "^4.1.0"
     karma-chrome-launcher "^3.1.0"
@@ -3946,7 +3946,7 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001008, caniuse-lite@^1.0.30001012:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001012.tgz#653ec635e815b9e0fb801890923b0c2079eb34ec"
   integrity sha512-7RR4Uh04t9K1uYRWzOJmzplgEOAXbfK72oVNokCdMzA67trrhPzy93ahKk1AWHiA0c58tD2P+NHqxrA8FZ+Trg==
 
-caniuse-lite@^1.0.30001030:
+caniuse-lite@^1.0.30001030, caniuse-lite@^1.0.30001033:
   version "1.0.30001033"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001033.tgz#60c328fb56860de60f9a2cb419c31fb80587cba0"
   integrity sha512-8Ibzxee6ibc5q88cM1usPsMpJOG5CTq0s/dKOmlekPbDGKt+UrnOOTPSjQz3kVo6yL7N4SB5xd+FGLHQmbzh6A==
@@ -5273,10 +5273,10 @@ es-dev-server@^1.27.0, es-dev-server@^1.5.0:
     useragent "^2.3.0"
     whatwg-url "^7.0.0"
 
-es-dev-server@^1.43.1:
-  version "1.43.1"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.43.1.tgz#f188ba4325b01a6ddf7428924ec5b99825bacc56"
-  integrity sha512-NURP1mnHIZRsaQBuPsPPJGpJ4A3GXrJu5yH5YoenIQ9Hne+kKZkDwbvoZy4n/1nVktF13gzCHID7n1Pg1tSvmw==
+es-dev-server@^1.44.0:
+  version "1.44.0"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.44.0.tgz#8546988697eaca3c3234f1ac797187e7b1ba223c"
+  integrity sha512-Jn83muIAilhQz6carR1adQZQKR1L3jqm4//asm0HISw09GpeYfyP19FjPzcjhmQbBxGCrSFpCIt1rzOf3/a/HA==
   dependencies:
     "@babel/core" "^7.8.3"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -5289,16 +5289,16 @@ es-dev-server@^1.43.1:
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-transform-template-literals" "^7.8.3"
     "@babel/preset-env" "^7.8.3"
-    "@open-wc/building-utils" "^2.15.2"
+    "@open-wc/building-utils" "^2.16.0"
     "@rollup/plugin-node-resolve" "^6.1.0"
     "@rollup/pluginutils" "^3.0.0"
     "@types/minimatch" "^3.0.3"
-    browserslist "^4.7.2"
+    browserslist "^4.9.1"
     browserslist-useragent "^3.0.2"
     builtin-modules "^3.1.0"
     camelcase "^5.3.1"
     caniuse-api "^3.0.0"
-    caniuse-lite "^1.0.30001008"
+    caniuse-lite "^1.0.30001033"
     chokidar "^3.0.0"
     command-line-args "^5.0.2"
     command-line-usage "^6.1.0"
@@ -5317,7 +5317,7 @@ es-dev-server@^1.43.1:
     opn "^5.4.0"
     parse5 "^5.1.1"
     path-is-inside "^1.0.2"
-    polyfills-loader "^1.4.1"
+    polyfills-loader "^1.4.2"
     portfinder "^1.0.21"
     strip-ansi "^5.2.0"
     useragent "^2.3.0"
@@ -9029,13 +9029,13 @@ polished@^3.3.1:
   dependencies:
     "@babel/runtime" "^7.6.3"
 
-polyfills-loader@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.4.1.tgz#a01379d5782a810ff3d9d591a0a3692b9140a263"
-  integrity sha512-DgHrayH2WEgii4BR5hpnG/qgu1GcbnvnObusPRkgG2U50rKyWTU2581N7RpVqHPhBI6XaXhWop2AG3ZqR/NeVw==
+polyfills-loader@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.4.2.tgz#b5f7cbf3ad20c6c47fb61c73087e356546020b3f"
+  integrity sha512-nn7EUnKWS2SMjBWP09OdFGxlFVzRFiRBhx/z9d2Hs+08mBXV5V9xdDtbMVFTZToscpCR2IfMefCdeVspxOn1jQ==
   dependencies:
     "@babel/core" "^7.8.3"
-    "@open-wc/building-utils" "^2.15.2"
+    "@open-wc/building-utils" "^2.16.0"
     "@webcomponents/webcomponentsjs" "^2.4.0"
     core-js-bundle "^3.6.0"
     deepmerge "^3.2.0"
