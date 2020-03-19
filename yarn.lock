@@ -1739,10 +1739,10 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.13.21.tgz#718b9ec5f9a98935fc775e577ad094ae8d8b7dea"
   integrity sha512-BONpjHcGX2zFa9mfnwBCLEmlDsOHzT+j6Qt1yfK3MzFXFtAykfzFjAgaxPetu0YbBlCfXuMlfxI4vlRGCGMvFg==
 
-"@open-wc/semantic-dom-diff@^0.17.3":
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.3.tgz#f653fc505dfb900e963937d7c78bf5dd3d1bb274"
-  integrity sha512-Qj2pC6DoEFLfo1lwGG/03DkWhrY+yDVbr5zVEIA/e76WjAvXE6VrjJN2Ip7eEjTIsTz+7wsQJNWGMNIXyusN5g==
+"@open-wc/semantic-dom-diff@^0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.4.tgz#3b0ad51d847b1e137efe914f6f5544ddc95059c6"
+  integrity sha512-d8eU+2CTfQjVtMUdKLpK8hGDUf/wrAbUuvY3l08VIqfDuxo4iXuQXV4+P/aLbyJHrouoP7xoxBQP0eBVJAjzEw==
 
 "@open-wc/storybook-prebuilt@^0.0.6":
   version "0.0.6"
@@ -1751,10 +1751,10 @@
   dependencies:
     standard-version "^7.0.1"
 
-"@open-wc/testing-helpers@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.6.0.tgz#bbd9fcf164685853eb448eb0c731dba20a24735e"
-  integrity sha512-T5ZcfMER9oswf49VeflO1VX+lFdAMOpBQlpQFBpI6WLid3fekbKgnPSsSdl5jOlXhhT4rGaDp8EBqVju+Fk8kg==
+"@open-wc/testing-helpers@^1.6.0", "@open-wc/testing-helpers@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.6.1.tgz#c7826f2bd97e3bba57b5ef45d6d299293c8c7cfa"
+  integrity sha512-BDhVvk3a3locExjiG3YTMoF2JF1XNwUPIZUV4bfUWlSIpgbAn0yUGd5/k36RgTbQ2/UB8h6YxNZnZGAlpeChJA==
 
 "@open-wc/testing-karma-bs@^1.0.0":
   version "1.3.49"
@@ -1783,13 +1783,13 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.6.tgz#4d4559f81aa108387c7d9bda27bb65f7614762d1"
-  integrity sha512-D4eb+v5+c5id0IxhieRrKWqxRfrQDOCZAtYrJL3MaybzEPABAuk0teRIVTV4ZUiNclRzFNp7QwnsEZlX/PkL0g==
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.7.tgz#1157170823a875e51e3dc5484ad7469131e82e1c"
+  integrity sha512-IZSr6o8dc3xcWk2Gk4TF8SjrbwVYryNJviHrKbYXp710+gyiGuVztfckCahqf+YLjfCSF1RimfUNgOHkDqa4Ng==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
-    "@open-wc/semantic-dom-diff" "^0.17.3"
-    "@open-wc/testing-helpers" "^1.6.0"
+    "@open-wc/semantic-dom-diff" "^0.17.4"
+    "@open-wc/testing-helpers" "^1.6.1"
     "@types/chai" "^4.1.7"
     "@types/chai-dom" "^0.0.8"
     "@types/mocha" "^5.0.0"
