@@ -30,7 +30,7 @@
     "sbbad": "npm run storybook:build && npm run deploy-storybook"
   },
   "dependencies": {
-    "@material/mwc-button": "0.13.0",
+    "@material/mwc-button": "0.14.0",
     "@polymer/polymer": "^3.3.1",
     "@storybook/addon-docs": "^5.3.14",
     "@storybook/addon-knobs": "^5.3.14",
