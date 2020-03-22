@@ -2,10 +2,14 @@ import { css, svg, customElement, property } from 'lit-element';
 import { Button } from '@material/mwc-button';
 
 @customElement('whatsapp-button')
-//@ts-ignore
+// @ts-ignore
 class WhatsappButton extends Button {
   @property({ type: String, reflect: true }) phone = '';
+
   @property({ type: String, reflect: true }) text = '';
+
+  @property({ type: String }) link = '';
+
   @property({ type: String, reflect: true }) dialcode = '';
 
   static get styles() {
@@ -71,21 +75,23 @@ class WhatsappButton extends Button {
     this.outlined = true;
     this.trailingIcon = true;
     this.onclick = () => {
-      //@ts-ignore
+      // @ts-ignore
       if (window.ga)
-      //@ts-ignore
+        // @ts-ignore
         window.ga('gtm1.send', {
           hitType: 'event',
           eventCategory: 'Buttons',
           eventAction: 'click',
           eventLabel: 'wa-start-message',
         });
-      window.open(
-        `https://api.whatsapp.com/send?phone=${this.dialcode}${
-          this.phone
-        }&text=${encodeURIComponent(this.text)}`,
-      );
+      window.open(this.link);
     };
+  }
+
+  firstUpdated() {
+    this.link = `https://api.whatsapp.com/send?phone=${this.dialcode}${
+      this.phone
+    }&text=${encodeURIComponent(this.text)}`;
   }
 }
 export { WhatsappButton };

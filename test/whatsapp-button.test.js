@@ -3,38 +3,27 @@ import { html, fixture, expect } from '@open-wc/testing';
 import '../whatsapp-button.js';
 
 describe('WhatsappButton', () => {
-  it('has a default title "Hey there" and counter 5', async () => {
+  it('has a default title "Lets chat"', async () => {
     const el = await fixture(html`
       <whatsapp-button></whatsapp-button>
     `);
-
-    expect(el.title).to.equal('Hey there');
-    expect(el.counter).to.equal(5);
+    expect(el.label).to.equal(`Let's chat`);
   });
 
-  it('increases the counter on button click', async () => {
+  it('Button link is constructed properly', async () => {
     const el = await fixture(html`
-      <whatsapp-button></whatsapp-button>
+    <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Let's Talk">
+    </whatsapp-button>
     `);
-    el.shadowRoot.querySelector('button').click();
-
-    expect(el.counter).to.equal(6);
+    expect(el.link).to.equal("https://api.whatsapp.com/send?phone=447712345678&text=hey%20there%20lets%20chat!");
   });
 
-  it('can override the title via attribute', async () => {
+  it('can change the label via attribute', async () => {
     const el = await fixture(html`
-      <whatsapp-button title="attribute title"></whatsapp-button>
+      <whatsapp-button label="attribute label"></whatsapp-button>
     `);
 
-    expect(el.title).to.equal('attribute title');
-  });
-
-  it('shows initially the text "hey there Nr. 5!" and an "increment" button', async () => {
-    const el = await fixture(html`
-      <whatsapp-button></whatsapp-button>
-    `);
-
-    expect(el).shadowDom.to.equalSnapshot();
+    expect(el.label).to.equal('attribute label');
   });
 
   it('passes the a11y audit', async () => {
