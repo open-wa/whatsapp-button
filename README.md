@@ -1,8 +1,6 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/whatsapp-button) [![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/whatsapp-button)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/whatsapp-button) [![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/whatsapp-button) [![Maintainability](https://api.codeclimate.com/v1/badges/945fe901103848ca5de1/maintainability)](https://codeclimate.com/github/smashah/whatsapp-button/maintainability)
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/945fe901103848ca5de1/maintainability)](https://codeclimate.com/github/smashah/whatsapp-button/maintainability)
 
 # \<whatsapp-button>
 
