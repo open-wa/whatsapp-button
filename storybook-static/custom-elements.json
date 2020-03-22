@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "whatsapp-button",
+      "description": "A simple button to start a whatsapp conversation.",
+      "properties": [
+        {
+          "name": "label",
+          "type": "String",
+          "description": "This is the label given to the button",
+          "default": "Let's talk!"
+        },
+        {
+          "name": "text",
+          "type": "String",
+          "description": "The message sent to the number",
+          "default": ""
+        },
+        {
+          "name": "dialcode",
+          "type": "String",
+          "description": "This international dialing code for the number. (E.g 44 for a UK number)",
+          "default": ""
+        },
+        {
+          "name": "number",
+          "type": "String",
+          "description": "The number to which to start the conversation with and send the text",
+          "default": ""
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--whatsapp-button-text-color",
+          "description": "Main Text Color",
+          "type": "Color"
+        }
+      ]
+    }
+  ]
+}
