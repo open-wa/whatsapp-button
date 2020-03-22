@@ -2,6 +2,8 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/945fe901103848ca5de1/maintainability)](https://codeclimate.com/github/smashah/whatsapp-button/maintainability)
+
 # \<whatsapp-button>
 
 Easily start WhatsApp conversations! Based on [@material/mwc-button](https://github.com/material-components/material-components-web-components#readme).
