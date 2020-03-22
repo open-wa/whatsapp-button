@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["*/test/**"]
+
+exclude_patterns = [
+    "*/lib/**",
+    "*/demo/**",
+    "*/stories/**"
+]
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
