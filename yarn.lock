@@ -1675,10 +1675,10 @@
     "@open-wc/semantic-dom-diff" "^0.13.16"
     "@types/chai" "^4.1.7"
 
-"@open-wc/demoing-storybook@^1.0.1", "@open-wc/demoing-storybook@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-1.15.0.tgz#826703eccd6360a0e373000543ea7cd1584105fc"
-  integrity sha512-X8bRnyuR+AuosXfZ/3TWURbBDjTj3hnbvyQphZSc4Fwn4Hb1ElWC5uD/5AJYiLar4ptXAiN3S76Gi7hlWOYQtQ==
+"@open-wc/demoing-storybook@^1.0.1", "@open-wc/demoing-storybook@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-1.15.1.tgz#56ddcccd4c9e9888af12082e4c10fbb6c07765fb"
+  integrity sha512-f6gHotcsnV1Gfxem6TLuxyL7Vo1OVJq0F2KtHvNEGZ4nfKKHpcXM7F0ijamX5V8FlCbnanXtJi0GFWd0SX4NtQ==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-transform-react-jsx" "^7.9.1"
@@ -1696,7 +1696,7 @@
     magic-string "^0.25.4"
     rollup "^1.31.1"
     rollup-plugin-index-html "^1.10.4"
-    storybook-addon-markdown-docs "^0.2.1"
+    storybook-addon-markdown-docs "^0.2.2"
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
@@ -10564,10 +10564,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-storybook-addon-markdown-docs@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.1.tgz#db0ae6fe22c3ef34012540b9bc4cf7fe6a649504"
-  integrity sha512-hTTWoRJpcTK1L+LJsegAavIacBWh5I/JYqHpaA5L0x1edWTD1/3A8MbNH0xZ0BTnagaKI36C0Yalfi/wHhGB6Q==
+storybook-addon-markdown-docs@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.2.tgz#6ea1acb2797e0ea6c3f23b0d4401c6c22b251054"
+  integrity sha512-fZNhBBxx7QrnA/ZUu8xmw88KBqiRZ0Wb/c8c3tdtWnIRhz/8GWhtDZQn/GPZZI8eK5usyTtDWkWZ9ywWJ1O+KQ==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
@@ -10576,9 +10576,10 @@ storybook-addon-markdown-docs@^0.2.1:
     "@babel/plugin-syntax-import-meta" "^7.8.3"
     "@mdjs/core" "^0.1.7"
     "@mdx-js/mdx" "^1.5.1"
-    "@open-wc/demoing-storybook" "^1.15.0"
+    "@open-wc/demoing-storybook" "^1.15.1"
     "@storybook/addon-docs" "5.3.1"
     detab "^2.0.3"
+    mdurl "^1.0.1"
     remark-html "^10.0.0"
     remark-parse "^7.0.2"
     remark-slug "^5.1.2"
