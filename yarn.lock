@@ -1678,15 +1678,15 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.5.9"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.9.tgz#5e5236d1acf0b55007d8c14cd672489fd98cb00d"
-  integrity sha512-CVAMq+70awlJHSlsKOExpf+zf2c4poJhO78zg9pnULy0T9qxMn75qY8MB4WqD104VFF0QjFjzA+8+q5VgNeSrw==
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.10.tgz#2bd0eba6c8004060f78fac266291f02d3d2bc8d2"
+  integrity sha512-NzteLjBN+CN5P6kXrkDMaL3TCVMUEwvSlX86mAGJfpI9xoWcV25iH+z5ad1ny/KwkImp8LvWlWBXXJDjpgSa6g==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
     "@open-wc/semantic-dom-diff" "^0.17.6"
     "@open-wc/testing-helpers" "^1.7.0"
     "@types/chai" "^4.1.7"
-    "@types/chai-dom" "^0.0.8"
+    "@types/chai-dom" "^0.0.9"
     "@types/mocha" "^5.0.0"
     "@types/sinon-chai" "^3.2.3"
     chai "^4.2.0"
@@ -2192,10 +2192,10 @@
   dependencies:
     "@types/babel-types" "*"
 
-"@types/chai-dom@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@types/chai-dom/-/chai-dom-0.0.8.tgz#832b68d78390c80030e64d8fd4990e514484e91d"
-  integrity sha512-F5vAuz2hp7VY+0UmkFLgTwyeHDddIw1c/JbAQZp2lgpZOd3ujlHFijWO4sHdo7sun9HrzwnSJlZfINdKrUwI+w==
+"@types/chai-dom@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@types/chai-dom/-/chai-dom-0.0.9.tgz#77379354efec2568284ca355fff6a4f85f5a66f4"
+  integrity sha512-jj4F2NJog2/GBYsyJ8+NvhnWUBbPY4MUAKLdPJE6+568rw12GGXvj0ycUuP5nndVrnJgozmJAoMTvxvjJATXWw==
   dependencies:
     "@types/chai" "*"
 
