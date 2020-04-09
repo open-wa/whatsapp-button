@@ -1,4 +1,4 @@
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/whatsapp-button) [![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/whatsapp-button) [![Maintainability](https://api.codeclimate.com/v1/badges/945fe901103848ca5de1/maintainability)](https://codeclimate.com/github/smashah/whatsapp-button/maintainability)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@open-wa/whatsapp-button) [![npm version](https://badge.fury.io/js/whatsapp-button.svg)](https://badge.fury.io/js/@open-wa/whatsapp-button) [![Maintainability](https://api.codeclimate.com/v1/badges/945fe901103848ca5de1/maintainability)](https://codeclimate.com/github/open-wa/whatsapp-button/maintainability)
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
@@ -18,21 +18,21 @@ Easily start WhatsApp conversations! Based on [@material/mwc-button](https://git
 ## Installation
 
 ```bash
-npm i whatsapp-button
+npm i @open-wa/whatsapp-button
 ```
 
 then import
 
 ```html
 <script type="module">
-  import 'whatsapp-button/whatsapp-button.js';
+  import '@open-wa/whatsapp-button/whatsapp-button.js';
 </script>
 ```
 
-Or grab from [unpkg.com CDN](https://unpkg.com/whatsapp-button?module):
+Or grab from [unpkg.com CDN](https://unpkg.com/@open-wa/whatsapp-button?module):
 
 ```html
-<script src="https://unpkg.com/whatsapp-button?module" type="module"></script>
+<script src="https://unpkg.com/@open-wa/whatsapp-button?module" type="module"></script>
 ```
 
 ## Usage
