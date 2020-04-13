@@ -1566,6 +1566,38 @@
     whatwg-fetch "^3.0.0"
     whatwg-url "^7.0.0"
 
+"@open-wc/building-utils@^2.16.3":
+  version "2.16.3"
+  resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.16.3.tgz#f512d68198c31458849c79111fa9d3f24f03049d"
+  integrity sha512-lO/HD2wEl2avRSgqISeP4S1zPQEGRQ/+Zh8RBk9AggDma3uPiRU0RbuRvhunmu7hFWVDBj5o1FRJ7xJ94AWCnw==
+  dependencies:
+    "@babel/core" "^7.9.0"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@webcomponents/shadycss" "^1.9.4"
+    "@webcomponents/webcomponentsjs" "^2.4.0"
+    arrify "^2.0.1"
+    browserslist "^4.9.1"
+    chokidar "^3.0.0"
+    clean-css "^4.2.1"
+    clone "^2.1.2"
+    core-js-bundle "^3.6.0"
+    deepmerge "^4.2.2"
+    es-module-shims "^0.4.6"
+    html-minifier "^4.0.0"
+    lru-cache "^5.1.1"
+    minimatch "^3.0.4"
+    parse5 "^5.1.1"
+    path-is-inside "^1.0.2"
+    regenerator-runtime "^0.13.3"
+    resolve "^1.11.1"
+    rimraf "^3.0.2"
+    shady-css-scoped-element "^0.0.2"
+    systemjs "^4.0.0"
+    terser "^4.6.7"
+    valid-url "^1.0.9"
+    whatwg-fetch "^3.0.0"
+    whatwg-url "^7.0.0"
+
 "@open-wc/chai-dom-equals@^0.12.36":
   version "0.12.36"
   resolved "https://registry.yarnpkg.com/@open-wc/chai-dom-equals/-/chai-dom-equals-0.12.36.tgz#ed0eb56b9e98c4d7f7280facce6215654aae9f4c"
@@ -1613,16 +1645,16 @@
     eslint-plugin-no-only-tests "^2.4.0"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/karma-esm@^2.13.22":
-  version "2.13.22"
-  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.22.tgz#0061953243219020b15ec7a1fe773ca617b459de"
-  integrity sha512-o7exH0uQ3nn4vOZtjCGPgpkvw7rrTcCHTCRjoc3cjNjaZD+p5oQ7qpLIZbQFUK9XXQtj7KjGuPZEalIu0HDA3Q==
+"@open-wc/karma-esm@^2.13.23":
+  version "2.13.23"
+  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.13.23.tgz#bd676154cf4f987f980d3d601bb1277fe3f09779"
+  integrity sha512-UnC0Vy06F5doojitKIkG+UMbvJBqfRf6o5bdcXaOAd+7SpvpGRwmOq9+/4mkqzIKe/EIiTKc2SoCIh82JI0CTw==
   dependencies:
-    "@open-wc/building-utils" "^2.16.2"
+    "@open-wc/building-utils" "^2.16.3"
     babel-plugin-istanbul "^5.1.4"
     chokidar "^3.0.0"
-    deepmerge "^3.2.0"
-    es-dev-server "^1.46.1"
+    deepmerge "^4.2.2"
+    es-dev-server "^1.46.2"
     minimatch "^3.0.4"
     node-fetch "^2.6.0"
     portfinder "^1.0.21"
@@ -1652,20 +1684,20 @@
   integrity sha512-Tj0g8bPDF2YUaHFcnxntlpOs0GtpCFd+4SDXfDe//ZB+83K4efnqoVzAgf5P/vlRKzYwcc+BEZIq8K6550vD0w==
 
 "@open-wc/testing-karma-bs@^1.0.0":
-  version "1.3.55"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.55.tgz#d9afde879daa13f76eeb625906f4b52e32c5fc0a"
-  integrity sha512-doCzt98GACGnzF0d8TdueY7xRrnXFjOO0SC/Pv7RopDp4iFm9nOpTdRFHyu71iQWDGscChNVfw0ed69yCMyOxA==
+  version "1.3.56"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.56.tgz#cf7559f15d5fadba3ce76d56a55e5ef013d70289"
+  integrity sha512-pdni8cmFj7GMwQYOkm2UN6pT2S4JZh2r6w7ACGPGKAe3VMgdGz2esWS9j3q10Ry00wnEOC/bFybU6u6z8tYDuQ==
   dependencies:
-    "@open-wc/testing-karma" "^3.3.11"
+    "@open-wc/testing-karma" "^3.3.12"
     "@types/node" "^11.13.0"
     karma-browserstack-launcher "^1.0.0"
 
-"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.11":
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.11.tgz#9d73a807780b9d794a365fc74648673bc603b9a1"
-  integrity sha512-Q4CL8bXIBytl1ANuN7jkH/rDUqNRBSfwmAlIFMtS7mkXgbfz+ZQYcimAdJJOwgsZqd1jfnKWdYgbg8JjC7Iisw==
+"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.12":
+  version "3.3.12"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.12.tgz#c6e3dc0415789b985369aa4c0ce6a0806845ff43"
+  integrity sha512-Hl0VGwBUQKuyuDrtr2dLi1SdD/BbkImuuE/Ieui37RyRevZy+QH97dIHvHLOSyrCqzaEzV9ePvxiPc7lEHnYIQ==
   dependencies:
-    "@open-wc/karma-esm" "^2.13.22"
+    "@open-wc/karma-esm" "^2.13.23"
     axe-core "^3.3.1"
     karma "^4.1.0"
     karma-chrome-launcher "^3.1.0"
@@ -1724,12 +1756,32 @@
     is-module "^1.0.0"
     resolve "^1.11.1"
 
+"@rollup/plugin-node-resolve@^7.1.1":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.3.tgz#80de384edfbd7bfc9101164910f86078151a3eca"
+  integrity sha512-RxtSL3XmdTAE2byxekYLnx+98kEUOrPHF/KRVjLH+DEIHy6kjIw7YINQzn+NXiH/NTrQLAwYs0GWB+csWygA9Q==
+  dependencies:
+    "@rollup/pluginutils" "^3.0.8"
+    "@types/resolve" "0.0.8"
+    builtin-modules "^3.1.0"
+    is-module "^1.0.0"
+    resolve "^1.14.2"
+
 "@rollup/pluginutils@^3.0.0":
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.0.8.tgz#4e94d128d94b90699e517ef045422960d18c8fde"
   integrity sha512-rYGeAc4sxcZ+kPG/Tw4/fwJODC3IXHYDH4qusdN/b6aLw5LPUbzpecYbEJh4sVQGPFJxd2dBU4kc1H3oy9/bnw==
   dependencies:
     estree-walker "^1.0.1"
+
+"@rollup/pluginutils@^3.0.8":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.0.9.tgz#aa6adca2c45e5a1b950103a999e3cddfe49fd775"
+  integrity sha512-TLZavlfPAZYI7v33wQh4mTP6zojne14yok3DNSLcjoG/Hirxfkonn6icP5rrNWRn8nZsirJBFFpijVOJzkUHDg==
+  dependencies:
+    "@types/estree" "0.0.39"
+    estree-walker "^1.0.1"
+    micromatch "^4.0.2"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -2213,6 +2265,11 @@
   version "0.0.40"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.40.tgz#0e6cb9b9bbd098031fa19e4b4e8131bc70e5de13"
   integrity sha512-p3KZgMto/JyxosKGmnLDJ/dG5wf+qTRMUjHJcspC2oQKa4jP7mz+tv0ND56lLBu3ojHlhzY33Ol+khLyNmilkA==
+
+"@types/estree@0.0.39":
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/history@*":
   version "4.7.3"
@@ -3870,6 +3927,11 @@ deepmerge@^3.2.0:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.3.0.tgz#d3c47fd6f3a93d517b14426b0628a17b0125f5f7"
   integrity sha512-GRQOafGHwMHpjPx9iCvTgpu9NojZ49q794EEL94JVEw6VaeA8XTUyBKvAkOOjBX9oJNiV6G3P+T+tihFjo2TqA==
 
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+
 default-require-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/default-require-extensions/-/default-require-extensions-2.0.0.tgz#f5f8fbb18a7d6d50b21f641f649ebb522cfe24f7"
@@ -4271,6 +4333,57 @@ es-dev-server@^1.46.1, es-dev-server@^1.5.0:
     parse5 "^5.1.1"
     path-is-inside "^1.0.2"
     polyfills-loader "^1.5.3"
+    portfinder "^1.0.21"
+    strip-ansi "^5.2.0"
+    systemjs "^4.0.0"
+    useragent "^2.3.0"
+    whatwg-url "^7.0.0"
+
+es-dev-server@^1.46.2:
+  version "1.46.2"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.46.2.tgz#f2a17cc7a5dab1e8a7fa212b586cb51f3abea32f"
+  integrity sha512-pqJ1bejSEbcxXFcMi4egkLaLWg5ASaxNeSRiGS9vpxu3S5f0aWX8XgYwifT6VeBpEHalkwb10prm/nvDCZKQlw==
+  dependencies:
+    "@babel/core" "^7.9.0"
+    "@babel/plugin-proposal-dynamic-import" "^7.8.3"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-proposal-optional-chaining" "^7.9.0"
+    "@babel/plugin-syntax-class-properties" "^7.8.3"
+    "@babel/plugin-syntax-import-meta" "^7.8.3"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-syntax-numeric-separator" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+    "@babel/plugin-transform-template-literals" "^7.8.3"
+    "@babel/preset-env" "^7.9.0"
+    "@open-wc/building-utils" "^2.16.3"
+    "@rollup/plugin-node-resolve" "^7.1.1"
+    "@rollup/pluginutils" "^3.0.0"
+    "@types/minimatch" "^3.0.3"
+    browserslist "^4.9.1"
+    browserslist-useragent "^3.0.2"
+    builtin-modules "^3.1.0"
+    camelcase "^5.3.1"
+    caniuse-api "^3.0.0"
+    caniuse-lite "^1.0.30001033"
+    chokidar "^3.0.0"
+    command-line-args "^5.0.2"
+    command-line-usage "^6.1.0"
+    debounce "^1.2.0"
+    deepmerge "^4.2.2"
+    es-module-lexer "^0.3.13"
+    get-stream "^5.1.0"
+    is-stream "^2.0.0"
+    isbinaryfile "^4.0.2"
+    koa "^2.7.0"
+    koa-compress "^3.0.0"
+    koa-etag "^3.0.0"
+    koa-static "^5.0.0"
+    lru-cache "^5.1.1"
+    minimatch "^3.0.4"
+    opn "^5.4.0"
+    parse5 "^5.1.1"
+    path-is-inside "^1.0.2"
+    polyfills-loader "^1.5.4"
     portfinder "^1.0.21"
     strip-ansi "^5.2.0"
     systemjs "^4.0.0"
@@ -8004,6 +8117,28 @@ polyfills-loader@^1.5.3:
     terser "^4.6.4"
     whatwg-fetch "^3.0.0"
 
+polyfills-loader@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.5.4.tgz#2ec7327cff00c0c596e99d774d00099ce1554b34"
+  integrity sha512-Jttph/AKpsmtw5+HGeCqZYaKTYZ3WswVgnTuSzUZOpChSETXiYQ1eihMiTfPIoD9FpIsTb7Ow0VHTFChBvzw9g==
+  dependencies:
+    "@babel/core" "^7.9.0"
+    "@open-wc/building-utils" "^2.16.3"
+    "@webcomponents/webcomponentsjs" "^2.4.0"
+    abortcontroller-polyfill "^1.4.0"
+    core-js-bundle "^3.6.0"
+    deepmerge "^4.2.2"
+    dynamic-import-polyfill "^0.1.1"
+    es-module-shims "^0.4.6"
+    html-minifier "^4.0.0"
+    intersection-observer "^0.7.0"
+    parse5 "^5.1.1"
+    regenerator-runtime "^0.13.3"
+    resize-observer-polyfill "^1.5.1"
+    systemjs "^4.0.0"
+    terser "^4.6.7"
+    whatwg-fetch "^3.0.0"
+
 popper.js@^1.14.4, popper.js@^1.14.7:
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
@@ -8971,7 +9106,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.10.0, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.3.2, resolve@^1.5.0:
+resolve@^1.1.6, resolve@^1.10.0, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.3.2, resolve@^1.5.0:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
@@ -9029,6 +9164,13 @@ rimraf@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.0.tgz#614176d4b3010b75e5c390eb0ee96f6dc0cebb9b"
   integrity sha512-NDGVxTsjqfunkds7CqsOiEnxln4Bo7Nddl3XhS4pXg5OzwkLqJ971ZVAAnB+DDLnF76N+VnDEiBHaVV8I06SUg==
+  dependencies:
+    glob "^7.1.3"
+
+rimraf@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
 
@@ -9918,6 +10060,15 @@ terser@^4.6.4:
   version "4.6.6"
   resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.6.tgz#da2382e6cafbdf86205e82fb9a115bd664d54863"
   integrity sha512-4lYPyeNmstjIIESr/ysHg2vUPRGf2tzF9z2yYwnowXVuVzLEamPN1Gfrz7f8I9uEPuHcbFlW4PLIAsJoxXyJ1g==
+  dependencies:
+    commander "^2.20.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.12"
+
+terser@^4.6.7:
+  version "4.6.11"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.11.tgz#12ff99fdd62a26de2a82f508515407eb6ccd8a9f"
+  integrity sha512-76Ynm7OXUG5xhOpblhytE7X58oeNSmC8xnNhjWVo8CksHit0U0kO4hfNbPrrYwowLWFgM2n9L176VNx2QaHmtA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
