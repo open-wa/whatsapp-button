@@ -1617,10 +1617,10 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.6.tgz#99f7e9636aad40174d5456f46f577c9eb10f1097"
   integrity sha512-hYSCF/fioVqrszeU7Xd7bN0JGsneqftG3Hx5PfDURO6hPdpPL5wlbY+2UgYfp2KTjfzV7XkzV1d9zQlykxauIA==
 
-"@open-wc/testing-helpers@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.0.tgz#a73d14b2dda19565a314a3d112cfd74fe4d23409"
-  integrity sha512-Tj0g8bPDF2YUaHFcnxntlpOs0GtpCFd+4SDXfDe//ZB+83K4efnqoVzAgf5P/vlRKzYwcc+BEZIq8K6550vD0w==
+"@open-wc/testing-helpers@^1.7.0", "@open-wc/testing-helpers@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.1.tgz#e93a4931e0d117deb7185ce9ea0acc87f6de47c0"
+  integrity sha512-v7AYqIGA50mFfwuZNqCxB0ZWI+aioZtiprBMl5bZT4eRMRz876jRMiX9y327RwwisGie6+HDIJHwhWjrd1GdOA==
 
 "@open-wc/testing-karma-bs@^1.0.0":
   version "1.3.56"
@@ -9534,11 +9534,11 @@ storybook-addon-markdown-docs@^0.2.5:
     unist-util-visit-parents "^3.0.2"
 
 storybook-addon-web-components-knobs@^0.3.1:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.5.tgz#9a1f4ab65e21e1923c3de703450e5ed362767c5d"
-  integrity sha512-tvVLYv/0VtD/cH5QOh6mSxM7NgSzvhAuFwKyMtWCXTaqUQIlwu9F3tVzWAloe7pQPmeH+ZgPx97lsY/DKigY0A==
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.6.tgz#d8fcb6939f60f14093d7b9ea32f8670eb0c8026f"
+  integrity sha512-BPpjDWmrrCy0/weceF4P+6YHNkVj2zKxG84O1lMirJjH1mFq3M3KM8QwqDWhWHFIZO1Px5IgVRHlRU36djy5jQ==
   dependencies:
-    "@open-wc/testing-helpers" "^1.7.0"
+    "@open-wc/testing-helpers" "^1.7.1"
 
 storybook-prebuilt@^1.5.0:
   version "1.5.2"
