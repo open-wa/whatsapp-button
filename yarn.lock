@@ -1518,9 +1518,9 @@
     "@types/chai" "^4.1.7"
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.0.tgz#9a069634bc7096aae8852383874936447d921d5d"
-  integrity sha512-N1ka+g6u5R+HTWCh6ZxywDaRMNvgga8uHNeEmyTH7NEQAYBOc1JSzMDhXLEtSUbl51iydE6hK+KfXLdNEV3hMQ==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.1.tgz#d946b51250d141ad827703654fc79cb0ded43aac"
+  integrity sha512-/48+ESF+s2aOZyakFedmfRVvC4Z/6pnoeKt91xcA//dS84gZdeVCgkVfQw71Iwctru2XlCKxF7fiJR8Lye7ycA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -1546,7 +1546,7 @@
     rollup "^2.0.0"
     rollup-plugin-babel "^5.0.0-alpha.1"
     rollup-plugin-terser "^5.2.0"
-    storybook-addon-markdown-docs "^0.2.4"
+    storybook-addon-markdown-docs "^0.2.5"
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
@@ -9510,10 +9510,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-storybook-addon-markdown-docs@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.4.tgz#0b7f90b4d8d21e9f5924e8b2c0712d41d5d3ff0e"
-  integrity sha512-TsSiPX0wi0thVl//BjKbYT2qbWVnSXmzxTorODzIMsuDWMJcccg87zZQHxRFqJMfmhbjmcP8bSfFi5xXN0so8Q==
+storybook-addon-markdown-docs@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.5.tgz#6c8f8c155ff8d80bcd330a08081647c20adbd23f"
+  integrity sha512-Vvnhx35Pv1ORzAwW7b9noOiMVwFCJSLw8KEKXHRHhEF8IKfsgvWnhRaqSg+mdCgkYO1ZHQjSvqpY+EE8zi8M/w==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
@@ -9522,7 +9522,6 @@ storybook-addon-markdown-docs@^0.2.4:
     "@babel/plugin-syntax-import-meta" "^7.8.3"
     "@mdjs/core" "^0.1.9"
     "@mdx-js/mdx" "^1.5.1"
-    "@open-wc/demoing-storybook" "^2.0.0"
     "@storybook/addon-docs" "5.3.1"
     detab "^2.0.3"
     mdurl "^1.0.1"
