@@ -1518,9 +1518,9 @@
     "@types/chai" "^4.1.7"
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.2.tgz#8b95f2958cc5afcb10846ba0558d67bbb967737a"
-  integrity sha512-qgodNrsrNtCU9XP26fbjcUrTCdTvibq1ZYx5UpI9woyiKCYm0xzpsDSQWleY0vzqYH5yIIOp7DqdNrMee9o4gQ==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.3.tgz#7d874031aa23f8c5d52fb3d87b07e44f46b5b0e4"
+  integrity sha512-lV/KeQabVmX5CLmI2+ordkfoYwqQ1tv1q83SF4yyOatLOPlqEtPCoBw783erU1+JAb3ijTP6n6sNuPk1+HRG4g==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
