@@ -1579,13 +1579,13 @@
     portfinder "^1.0.21"
     request "^2.88.0"
 
-"@open-wc/prettier-config@^0.1.10":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@open-wc/prettier-config/-/prettier-config-0.1.14.tgz#ee5fa9953b8795fd5df92cfa243f1bdab565c5a3"
-  integrity sha512-b30hqVLZLOvtGR0p3cmSvEYnu+OeKA1N/3v8m2u1bRt44+gVHkSOhf2/E90i8gveA6Maz98f0EwYFk03XEM/CA==
+"@open-wc/prettier-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@open-wc/prettier-config/-/prettier-config-1.1.0.tgz#f6a100721cf65b4d12e5d36140e2e235200c2092"
+  integrity sha512-XflLsquhd1FOKUEdKqBRwxnrvc6oqq+rM6/JzTJFvff6919fJY8q14qtStTcaWca7W8hjeaDuSiZdHlmgw1szg==
   dependencies:
     eslint-config-prettier "^3.3.0"
-    prettier "^1.19.1"
+    prettier "^2.0.0"
 
 "@open-wc/rollup-plugin-html@^1.0.0":
   version "1.0.0"
@@ -8008,10 +8008,15 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^1.16.4, prettier@^1.19.1:
+prettier@^1.16.4:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+
+prettier@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.4.tgz#2d1bae173e355996ee355ec9830a7a1ee05457ef"
+  integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
 
 prismjs@^1.8.4, prismjs@~1.17.0:
   version "1.17.1"
