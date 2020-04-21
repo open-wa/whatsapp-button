@@ -9557,11 +9557,11 @@ storybook-addon-markdown-docs@^0.2.7:
     unist-util-visit-parents "^3.0.2"
 
 storybook-addon-web-components-knobs@^0.3.1:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.6.tgz#d8fcb6939f60f14093d7b9ea32f8670eb0c8026f"
-  integrity sha512-BPpjDWmrrCy0/weceF4P+6YHNkVj2zKxG84O1lMirJjH1mFq3M3KM8QwqDWhWHFIZO1Px5IgVRHlRU36djy5jQ==
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.7.tgz#de6a199b236a463b97dcd6da7eae12ebde10b162"
+  integrity sha512-0i3R3+AtpX9J0wr1hd0aXlq8JtcbDkOyf7xIUglIHIwS4K9TzfuVOoucjxwaN5rpyA7d/8g2ulYiTq30c0BVlg==
   dependencies:
-    "@open-wc/testing-helpers" "^1.7.1"
+    "@open-wc/testing-helpers" "^1.7.2"
 
 storybook-prebuilt@^1.5.0:
   version "1.5.2"
