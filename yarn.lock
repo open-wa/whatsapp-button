@@ -1617,21 +1617,21 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.8.tgz#e240d71d6ffefd9c65ed342faf684170788c4ec7"
   integrity sha512-wYk9REynp75vgfH3gh1p0718K0wjiV04g+wjGtc+nzx+ChXRO9U2W7JTCniRBG8fAW2rBhzkS0GVQs8kLhjK6w==
 
-"@open-wc/testing-helpers@^1.7.1", "@open-wc/testing-helpers@^1.7.2":
+"@open-wc/testing-helpers@^1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.2.tgz#b53e7082cd946db9b598b4d72c5a087d6649ff22"
   integrity sha512-ilUdoObOTu9IO8cbv7MiLGEpmoIl6+31OFblOfq7UseqL8+KId88spqhUFc3UToX429HHypsUVuKHFfEST3oXw==
 
 "@open-wc/testing-karma-bs@^1.0.0":
-  version "1.3.56"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.56.tgz#cf7559f15d5fadba3ce76d56a55e5ef013d70289"
-  integrity sha512-pdni8cmFj7GMwQYOkm2UN6pT2S4JZh2r6w7ACGPGKAe3VMgdGz2esWS9j3q10Ry00wnEOC/bFybU6u6z8tYDuQ==
+  version "1.3.57"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.57.tgz#1c35d22083158fbd23836e8d726adfd66bfad244"
+  integrity sha512-E3O5fIPPRJfblKnRYr6b50ci26tlHXgGK19SqRyQohnP9bNyUZbY8rIT5vyK6fAbZLhRPFE/daQjkHCb9EAYuw==
   dependencies:
-    "@open-wc/testing-karma" "^3.3.12"
+    "@open-wc/testing-karma" "^3.3.14"
     "@types/node" "^11.13.0"
     karma-browserstack-launcher "^1.0.0"
 
-"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.12":
+"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.14":
   version "3.3.14"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.14.tgz#a5933bc19d3fe08533271a271b3e39d163f24dae"
   integrity sha512-6aQ/1QYR2+Zjat3LStPG/rrhsiPCpxc3Shzrk3coK//mFO/2KldBDi3QeQVS+mEQloA5S+izLtrSTHKWh+q+lg==
