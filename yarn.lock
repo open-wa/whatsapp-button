@@ -1644,15 +1644,15 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.13.21.tgz#718b9ec5f9a98935fc775e577ad094ae8d8b7dea"
   integrity sha512-BONpjHcGX2zFa9mfnwBCLEmlDsOHzT+j6Qt1yfK3MzFXFtAykfzFjAgaxPetu0YbBlCfXuMlfxI4vlRGCGMvFg==
 
-"@open-wc/semantic-dom-diff@^0.17.7":
-  version "0.17.7"
-  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.7.tgz#94b7a406275b786e525a6f9b2005f2bc0b2e9782"
-  integrity sha512-7SyZLBoXxYMIq2mQh3kJ80a09+M+ZpOiobBpwbW/8TKZEoOriB+eWAej5yPj6bM/XvUfn4y725vyS58U+GBeSw==
+"@open-wc/semantic-dom-diff@^0.17.8":
+  version "0.17.8"
+  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.8.tgz#e240d71d6ffefd9c65ed342faf684170788c4ec7"
+  integrity sha512-wYk9REynp75vgfH3gh1p0718K0wjiV04g+wjGtc+nzx+ChXRO9U2W7JTCniRBG8fAW2rBhzkS0GVQs8kLhjK6w==
 
-"@open-wc/testing-helpers@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.1.tgz#e93a4931e0d117deb7185ce9ea0acc87f6de47c0"
-  integrity sha512-v7AYqIGA50mFfwuZNqCxB0ZWI+aioZtiprBMl5bZT4eRMRz876jRMiX9y327RwwisGie6+HDIJHwhWjrd1GdOA==
+"@open-wc/testing-helpers@^1.7.1", "@open-wc/testing-helpers@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.2.tgz#b53e7082cd946db9b598b4d72c5a087d6649ff22"
+  integrity sha512-ilUdoObOTu9IO8cbv7MiLGEpmoIl6+31OFblOfq7UseqL8+KId88spqhUFc3UToX429HHypsUVuKHFfEST3oXw==
 
 "@open-wc/testing-karma-bs@^1.0.0":
   version "1.3.56"
@@ -1681,13 +1681,13 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.5.11"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.11.tgz#97c455ade0645cd2c83b7a902db4ea072f8523d0"
-  integrity sha512-QtLA5jGpfEJOoC0ka2OAqRAAZ0/pbgWPVLzgKPu//OC3CDxvVgKdEObW9pXVKpti5oLa7NRMxeJcTMkE4aO68Q==
+  version "2.5.12"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.12.tgz#efb6d7badde720c7d22a1e00c5c67e2a9a469f22"
+  integrity sha512-Z7sgrQkL1JaDOehwr/1Uaoytd5PcIHux+7IIh/gTvTapi9emqJc9n252huvZ4Mle52XKBPPfMlWwIWR6ailPFw==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
-    "@open-wc/semantic-dom-diff" "^0.17.7"
-    "@open-wc/testing-helpers" "^1.7.1"
+    "@open-wc/semantic-dom-diff" "^0.17.8"
+    "@open-wc/testing-helpers" "^1.7.2"
     "@types/chai" "^4.1.7"
     "@types/chai-dom" "^0.0.9"
     "@types/mocha" "^5.0.0"
