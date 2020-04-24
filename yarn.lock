@@ -1518,9 +1518,9 @@
     "@types/chai" "^4.1.7"
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.6.tgz#05a9a915831f4fbc9069174b96af41a238fdfd28"
-  integrity sha512-ow7wVnZTwjqHAkhmxdmMQvtpMGSD3/302bl0Cz3O14/49l/vaEgkswbcjErrKMfC5T/G2WXEu5fgSFIrC4Qt5Q==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.1.0.tgz#ca792f12c4815716a58ee4a961864e1eecdc94aa"
+  integrity sha512-KapDQoGgVibc1cFOYLDBp3WV98uPR5W/R/JV7pW9FTNIzh8oGBp6QFc8jd3Rr2LYfSk7Fdb068VFuqluiTQLrQ==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -1543,7 +1543,7 @@
     glob "^7.1.3"
     lit-html "^1.0.0"
     magic-string "^0.25.7"
-    rollup "^2.0.0"
+    rollup "^2.7.2"
     rollup-plugin-babel "^5.0.0-alpha.1"
     rollup-plugin-terser "^5.2.0"
     storybook-addon-markdown-docs "^0.2.7"
@@ -9045,10 +9045,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.0.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.6.1.tgz#8354e67caa7b8bf24c2488d9e2f64da2be62eebe"
-  integrity sha512-1RhFDRJeg027YjBO6+JxmVWkEZY0ASztHhoEUEWxOwkh4mjO58TFD6Uo7T7Y3FbmDpRTfKhM5NVxJyimCn0Elg==
+rollup@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.7.2.tgz#0f8ee6216d33e83c0750116312c2c92b94cc7f72"
+  integrity sha512-SdtTZVMMVSPe7SNv4exUyPXARe5v/p3TeeG3LRA5WabLPJt4Usi3wVrvVlyAUTG40JJmqS6zbIHt2vWTss2prw==
   optionalDependencies:
     fsevents "~2.1.2"
 
