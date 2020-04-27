@@ -1518,9 +1518,9 @@
     "@types/chai" "^4.1.7"
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.6.tgz#05a9a915831f4fbc9069174b96af41a238fdfd28"
-  integrity sha512-ow7wVnZTwjqHAkhmxdmMQvtpMGSD3/302bl0Cz3O14/49l/vaEgkswbcjErrKMfC5T/G2WXEu5fgSFIrC4Qt5Q==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.1.1.tgz#3167f189573795f6024322b86b4150764ffe5966"
+  integrity sha512-Zmcvg6K8ZsKjn4rS8kCZdaJ+rOLoAkuxFpVRW5BLs2fvLPhGEGuE+ce8+6BAMLP/a1939bWfP3AmGiyHtL+wuA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -1537,16 +1537,16 @@
     command-line-args "^5.0.2"
     command-line-usage "^6.1.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.46.5"
+    es-dev-server "^1.47.0"
     es-module-lexer "^0.3.13"
     fs-extra "^8.1.0"
     glob "^7.1.3"
     lit-html "^1.0.0"
     magic-string "^0.25.7"
-    rollup "^2.0.0"
+    rollup "^2.7.2"
     rollup-plugin-babel "^5.0.0-alpha.1"
     rollup-plugin-terser "^5.2.0"
-    storybook-addon-markdown-docs "^0.2.7"
+    storybook-addon-markdown-docs "^0.2.8"
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
@@ -4238,58 +4238,7 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.46.5, es-dev-server@^1.5.0:
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.47.0.tgz#d7d257b9a8f1177aa651465b00c47f18bfac6ee7"
-  integrity sha512-5+i5oD+dkE7dl1b+A65uyEky41ee7T85unjsA0S7d0mngOYR9YQjBdqG6lYCDVXNQBwMJ841OlU1WxM4jtWSWA==
-  dependencies:
-    "@babel/core" "^7.9.0"
-    "@babel/plugin-proposal-dynamic-import" "^7.8.3"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-proposal-optional-chaining" "^7.9.0"
-    "@babel/plugin-syntax-class-properties" "^7.8.3"
-    "@babel/plugin-syntax-import-meta" "^7.8.3"
-    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-syntax-numeric-separator" "^7.8.3"
-    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
-    "@babel/plugin-transform-template-literals" "^7.8.3"
-    "@babel/preset-env" "^7.9.0"
-    "@open-wc/building-utils" "^2.16.4"
-    "@rollup/plugin-node-resolve" "^7.1.1"
-    "@rollup/pluginutils" "^3.0.0"
-    "@types/minimatch" "^3.0.3"
-    browserslist "^4.9.1"
-    browserslist-useragent "^3.0.2"
-    builtin-modules "^3.1.0"
-    camelcase "^5.3.1"
-    caniuse-api "^3.0.0"
-    caniuse-lite "^1.0.30001033"
-    chokidar "^3.0.0"
-    command-line-args "^5.0.2"
-    command-line-usage "^6.1.0"
-    debounce "^1.2.0"
-    deepmerge "^4.2.2"
-    es-module-lexer "^0.3.13"
-    get-stream "^5.1.0"
-    is-stream "^2.0.0"
-    isbinaryfile "^4.0.2"
-    koa "^2.7.0"
-    koa-compress "^3.0.0"
-    koa-etag "^3.0.0"
-    koa-static "^5.0.0"
-    lru-cache "^5.1.1"
-    minimatch "^3.0.4"
-    opn "^5.4.0"
-    parse5 "^5.1.1"
-    path-is-inside "^1.0.2"
-    polyfills-loader "^1.5.6"
-    portfinder "^1.0.21"
-    strip-ansi "^5.2.0"
-    systemjs "^4.0.0"
-    useragent "^2.3.0"
-    whatwg-url "^7.0.0"
-
-es-dev-server@^1.47.0:
+es-dev-server@^1.47.0, es-dev-server@^1.5.0:
   version "1.47.0"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.47.0.tgz#d7d257b9a8f1177aa651465b00c47f18bfac6ee7"
   integrity sha512-5+i5oD+dkE7dl1b+A65uyEky41ee7T85unjsA0S7d0mngOYR9YQjBdqG6lYCDVXNQBwMJ841OlU1WxM4jtWSWA==
@@ -9128,10 +9077,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.0.0:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.6.1.tgz#8354e67caa7b8bf24c2488d9e2f64da2be62eebe"
-  integrity sha512-1RhFDRJeg027YjBO6+JxmVWkEZY0ASztHhoEUEWxOwkh4mjO58TFD6Uo7T7Y3FbmDpRTfKhM5NVxJyimCn0Elg==
+rollup@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.7.2.tgz#0f8ee6216d33e83c0750116312c2c92b94cc7f72"
+  integrity sha512-SdtTZVMMVSPe7SNv4exUyPXARe5v/p3TeeG3LRA5WabLPJt4Usi3wVrvVlyAUTG40JJmqS6zbIHt2vWTss2prw==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -9589,10 +9538,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-storybook-addon-markdown-docs@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.7.tgz#988e20599f02bb5be81cbdca95ed90f0dff499f5"
-  integrity sha512-A2XmrohinbeyU3vz/81ji6pMa72GlKzqx0qM+zb7D5HUPQFlLt838ieOEWMMkKjtiJBOvWiMznKFvATV007AIg==
+storybook-addon-markdown-docs@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.8.tgz#c4108825cbfb0271658331506ef855572d61bab4"
+  integrity sha512-p0VH8MyKb/CcL2opKwPaHkJdhjB8gL6kMTDZpVCoRqum0gguWIEjkk4upzr7ZhbdI6SPmDde0WieeB4Je5r2ug==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
