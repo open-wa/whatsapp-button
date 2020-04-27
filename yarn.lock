@@ -1626,12 +1626,14 @@
   resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.13.21.tgz#718b9ec5f9a98935fc775e577ad094ae8d8b7dea"
   integrity sha512-BONpjHcGX2zFa9mfnwBCLEmlDsOHzT+j6Qt1yfK3MzFXFtAykfzFjAgaxPetu0YbBlCfXuMlfxI4vlRGCGMvFg==
 
-"@open-wc/semantic-dom-diff@^0.17.8":
-  version "0.17.8"
-  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.8.tgz#e240d71d6ffefd9c65ed342faf684170788c4ec7"
-  integrity sha512-wYk9REynp75vgfH3gh1p0718K0wjiV04g+wjGtc+nzx+ChXRO9U2W7JTCniRBG8fAW2rBhzkS0GVQs8kLhjK6w==
+"@open-wc/semantic-dom-diff@^0.17.9":
+  version "0.17.9"
+  resolved "https://registry.yarnpkg.com/@open-wc/semantic-dom-diff/-/semantic-dom-diff-0.17.9.tgz#15ed61dfdf7a01ebbf21755527e25c90c78bf5e2"
+  integrity sha512-wO4xM3FhLmGGZM3wDexUPFb55tqVX45LJQ9l3uNKj1Roi0/aV1KjIohdE2J0zUJivfCxAWo1Dy45hNkCHO4CVA==
+  dependencies:
+    "@types/chai" "^4.2.11"
 
-"@open-wc/testing-helpers@^1.7.2", "@open-wc/testing-helpers@^1.8.1":
+"@open-wc/testing-helpers@^1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.8.1.tgz#e523352f911f273dc4d7cfc2405c8eb886f0be59"
   integrity sha512-gvTD5BrXdm0LEZbuy/4XweDjbdTsmZVpuK2172lkwCmoia1VaMvWL1iO7mBWZiACK5SJnBSWy6VX2GkaDHcUoQ==
@@ -1669,14 +1671,14 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.13.tgz#4d71be356b2285ebb88721744bdb6d34b00b5b2a"
-  integrity sha512-LdAt3yZFM4nLjuGp0l189/2CJ8x1BHA0qt6cw9cq3WojwWSS4iFX8wWGl31+Lkzg3a+y5D6QbMRWpZOaTyTL9g==
+  version "2.5.15"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.15.tgz#3062c17e2aca05e58c33a36b0bb2e0a3941a692a"
+  integrity sha512-rXuwa3Kf7NE7jhoYgzJVNDQQKb8guWLUCxOrhZcX0QaYIaDbNhierxLtbrpu9z78Y5PvcbwaH+ekO2jO44lxfQ==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
-    "@open-wc/semantic-dom-diff" "^0.17.8"
-    "@open-wc/testing-helpers" "^1.7.2"
-    "@types/chai" "^4.1.7"
+    "@open-wc/semantic-dom-diff" "^0.17.9"
+    "@open-wc/testing-helpers" "^1.8.1"
+    "@types/chai" "^4.2.11"
     "@types/chai-dom" "^0.0.9"
     "@types/mocha" "^5.0.0"
     "@types/sinon-chai" "^3.2.3"
@@ -2192,10 +2194,10 @@
   dependencies:
     "@types/chai" "*"
 
-"@types/chai@*", "@types/chai@^4.1.7":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.5.tgz#f8da153ebbe30babb0adc9a528b9ad32be3175a2"
-  integrity sha512-YvbLiIc0DbbhiANrfVObdkLEHJksQZVq0Uvfg550SRAKVYaEJy+V70j65BVe2WNp6E3HtKsUczeijHFCjba3og==
+"@types/chai@*", "@types/chai@^4.1.7", "@types/chai@^4.2.11":
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.11.tgz#d3614d6c5f500142358e6ed24e1bf16657536c50"
+  integrity sha512-t7uW6eFafjO+qJ3BIV2gGUyZs27egcNRkUdalkud+Qa3+kg//f129iuOFivHDXQ+vnU3fDXuwgv0cqMCbcE8sw==
 
 "@types/clean-css@*":
   version "4.2.1"
