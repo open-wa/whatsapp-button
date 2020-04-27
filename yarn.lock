@@ -1639,15 +1639,15 @@
     "@open-wc/scoped-elements" "^1.1.1"
 
 "@open-wc/testing-karma-bs@^1.0.0":
-  version "1.3.58"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.58.tgz#d18c04da3519181ba0a09b8a20c405faec3d603d"
-  integrity sha512-2DlljYNkVizBsiKLQVGKHjoiy+1Taegq/ABipWOdD8ln1d6fFm+LRPoqyYXqNgbMk82vJFAzBpyWvMMGjxGaNw==
+  version "1.3.60"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.60.tgz#de3db76a7b3cb4ddd6d8ee8cb7fb6f6458710576"
+  integrity sha512-kRFXP+C7ERCZ5U+kHETFJ3xpqbnclA9Fyvbk48FblKXeWD5hj8akfXStF6drYt0+ppxjQA0EHUVkU9OdsjoFIg==
   dependencies:
-    "@open-wc/testing-karma" "^3.3.15"
+    "@open-wc/testing-karma" "^3.3.17"
     "@types/node" "^11.13.0"
     karma-browserstack-launcher "^1.0.0"
 
-"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.15":
+"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.17":
   version "3.3.17"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.17.tgz#3104083acd843906802eb69959025eb42b8007e7"
   integrity sha512-dFjXua5/edY7BAWInXF0URxOIDKpyCnU/TUfbZGo2ZDi0ZkSHpeE6sax/bg1T/ymTBWgg1tPqP+IP7he1A7ZGA==
