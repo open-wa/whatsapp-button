@@ -1687,9 +1687,9 @@
     sinon-chai "^3.3.0"
 
 "@polymer/polymer@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.3.1.tgz#9ad48992d2a96775f80b0673f3a615d6df8a3dfc"
-  integrity sha512-8KaB48tzyMjdsHdxo5KvCAaqmTe7rYDzQAoj/pyEfq9Fp4YfUaS+/xqwYj0GbiDAUNzwkmEQ7dw9cgnRNdKO8A==
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.0.tgz#2f6c85456214bfff987cf65883e6a7860d5ce2ff"
+  integrity sha512-f9fQ1RiEBmkFzuT6cCsfA0YGtdyKrvjF7f3HbvSY1uo2x7ON9Acc//dBLOROUrvXbw1ANT+LY/UeHw0+/KtGog==
   dependencies:
     "@webcomponents/shadycss" "^1.9.1"
 
@@ -2458,12 +2458,7 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@webcomponents/shadycss@^1.9.1":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.3.tgz#74ee4be13f5374724aecb3d2c2de77523e01ada9"
-  integrity sha512-fRuET+UGrH84hG0UF4iHbFqWZKUoan4/ki+iCOJ/vnKltPSHv/ZVbcA6sT/pRreznt8aKEGqN2KdHvgRxn4xjA==
-
-"@webcomponents/shadycss@^1.9.4":
+"@webcomponents/shadycss@^1.9.1", "@webcomponents/shadycss@^1.9.4":
   version "1.9.5"
   resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.5.tgz#52672a34c18bb6dcdc95d1aa288015b2a75cd678"
   integrity sha512-ivJ47Gq4WJONLErim7FR1TGIX0epNx8b2N9Q7c4AKKd5Mbax+CoKoFLZ2lfFvx8vs/jz1YK+8UIbM+diSy27HQ==
