@@ -1689,9 +1689,9 @@
     sinon-chai "^3.3.0"
 
 "@polymer/polymer@^3.3.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.0.tgz#2f6c85456214bfff987cf65883e6a7860d5ce2ff"
-  integrity sha512-f9fQ1RiEBmkFzuT6cCsfA0YGtdyKrvjF7f3HbvSY1uo2x7ON9Acc//dBLOROUrvXbw1ANT+LY/UeHw0+/KtGog==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.4.1.tgz#333bef25711f8411bb5624fb3eba8212ef8bee96"
+  integrity sha512-KPWnhDZibtqKrUz7enIPOiO4ZQoJNOuLwqrhV2MXzIt3VVnUVJVG5ORz4Z2sgO+UZ+/UZnPD0jqY+jmw/+a9mQ==
   dependencies:
     "@webcomponents/shadycss" "^1.9.1"
 
