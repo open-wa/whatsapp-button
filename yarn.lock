@@ -1572,9 +1572,9 @@
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@open-wc/eslint-config/-/eslint-config-2.0.5.tgz#1d5e5a38b6f7bed5cb277b525262218928d91e3c"
-  integrity sha512-Dpq2neGkWbS+j8ROGXki0j/LAcLm99K13aMSXKm3+XS9++pqNoY1nPK99r/Nniczjysjxles2LNTJZ53i+hsWw==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@open-wc/eslint-config/-/eslint-config-2.0.6.tgz#57400e1c6ac51d63e93ce71366ee65543e2152f6"
+  integrity sha512-O+22PyMpsyiXHg9lXDbWBQoDSsBUID0agcAMT6YhLffRqg95TroImj6wKL2BGYic0d1MJv8PdPLBSi2A4J8eeg==
   dependencies:
     babel-eslint "^10.0.3"
     eslint "^6.7.2"
