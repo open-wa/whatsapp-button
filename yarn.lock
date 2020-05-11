@@ -1413,12 +1413,12 @@
     "@material/feature-targeting" "7.0.0-canary.d92d8c93e.0"
     "@material/theme" "7.0.0-canary.d92d8c93e.0"
 
-"@mdjs/core@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.2.0.tgz#716d844dc980b1aee5e3106d4f5e48dd52c95066"
-  integrity sha512-ZtWesMRTrvRqGSv7mwT+fg3nyB4IPj6N7re3LOQANvBouJdq7R/7Av8p7Nq4RB3e6Dz+nPjjPJVOtiOA/jc+nA==
+"@mdjs/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.3.0.tgz#6068a002e64e6f364c62dd8971fa52164711d49c"
+  integrity sha512-uHSghGLlS5cEUP4dwLWa5ZMsUvIpXRqxF5MMsQxynOkaPLXXEnNFUDAgtY8KeRwJ1H5avFUHxDTUJ8bzzoIM/w==
   dependencies:
-    "@mdjs/mdjs-preview" "^0.1.0"
+    "@mdjs/mdjs-preview" "^0.2.0"
     "@mdjs/mdjs-story" "^0.0.1"
     "@types/unist" "^2.0.3"
     "@types/vfile" "^4.0.0"
@@ -1460,6 +1460,16 @@
     "@mdjs/mdjs-preview" "^0.0.2"
     "@mdjs/mdjs-story" "^0.0.1"
     lit-element "^2.3.1"
+
+"@mdjs/mdjs-preview@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@mdjs/mdjs-preview/-/mdjs-preview-0.2.0.tgz#c3100d626afc3da9fd97274a81a7ca32dac70fe7"
+  integrity sha512-AIdTbUef2H6vQ3NnUZcVEeRJg0N5aFruJp+uPE4+vAm4XDzytpPUFOOfZovTbkAVQ8ehgmEfyadRaXPBOVUbTA==
+  dependencies:
+    "@mdjs/mdjs-preview" "^0.1.0"
+    "@mdjs/mdjs-story" "^0.0.1"
+    lit-element "^2.3.1"
+    lit-html "^1.2.1"
 
 "@mdjs/mdjs-story@^0.0.1":
   version "0.0.1"
@@ -1557,9 +1567,9 @@
   integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.2.2.tgz#186784506d7e4e3a4e25fb2dd9b23fe1ad01c3b2"
-  integrity sha512-mI6USX/lhwFN1gs7By72Hp1FJkWqxoHph5g/PZEItXay084CuDgTrEEy3liZObcku7RttkQ0k/FR9hRDrub9Vg==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.2.3.tgz#40b0bf295c5b663cdcdc66f1da169049c3c9d8d5"
+  integrity sha512-/o596O5jNXyNqQoTKoGDYML8Ud1R0c0suIlh/AFk6nMTYOn3g9AR5fJ2EqtrYai1C72qmxBbjJffhXkCKmkwvA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
@@ -1588,7 +1598,7 @@
     rollup "^2.7.2"
     rollup-plugin-babel "^5.0.0-alpha.1"
     rollup-plugin-terser "^5.2.0"
-    storybook-addon-markdown-docs "^0.2.10"
+    storybook-addon-markdown-docs "^0.3.0"
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
@@ -6747,7 +6757,7 @@ lit-element@^2.0.1, lit-element@^2.2.1, lit-element@^2.3.0, lit-element@^2.3.1:
   dependencies:
     lit-html "^1.1.1"
 
-lit-html@^1.0.0, lit-html@^1.1.1, lit-html@^1.1.2:
+lit-html@^1.0.0, lit-html@^1.1.1, lit-html@^1.1.2, lit-html@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.2.1.tgz#1fb933dc1e2ddc095f60b8086277d4fcd9d62cc8"
   integrity sha512-GSJHHXMGLZDzTRq59IUfL9FCdAlGfqNp/dEa7k7aBaaWD+JKaCjsAk9KYm2V12ItonVaYx2dprN66Zdm1AuBTQ==
@@ -9638,17 +9648,17 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-storybook-addon-markdown-docs@^0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.2.10.tgz#4dcec4402b4f4b3ef37fa93ad2501705b29b0779"
-  integrity sha512-tj86D3/87e1Uqcb5hgOJ2s2k3tqgla7E0kHmCn8a34huooZh799SVg+OkfcaqKbQPc64sjIIZSp7y00kYxUY9Q==
+storybook-addon-markdown-docs@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.3.0.tgz#58963af9b6f368d583c0e67c496fd22f041f91c9"
+  integrity sha512-TtRM7EL2RBeNBZ8IXd0378d6zDwCNJS6mNCJw5Ev00Z4YdzsOAZJxQafcJq1k/+RcpmuDkV5y3xMCjQtfcX2UA==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
     "@babel/parser" "^7.9.6"
     "@babel/plugin-syntax-import-meta" "^7.8.3"
-    "@mdjs/core" "^0.2.0"
+    "@mdjs/core" "^0.3.0"
     "@mdx-js/mdx" "^1.5.1"
     detab "^2.0.3"
     mdurl "^1.0.1"
