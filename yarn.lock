@@ -1413,10 +1413,10 @@
     "@material/feature-targeting" "7.0.0-canary.d92d8c93e.0"
     "@material/theme" "7.0.0-canary.d92d8c93e.0"
 
-"@mdjs/core@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.3.0.tgz#6068a002e64e6f364c62dd8971fa52164711d49c"
-  integrity sha512-uHSghGLlS5cEUP4dwLWa5ZMsUvIpXRqxF5MMsQxynOkaPLXXEnNFUDAgtY8KeRwJ1H5avFUHxDTUJ8bzzoIM/w==
+"@mdjs/core@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.3.1.tgz#86b7db9b9a7a55671d82e1d960ee14e2434edd45"
+  integrity sha512-SRK/JhBcHB+9f1ytA5TMLWeC82nlqox3Paw7JW2CLtjIaxQVuhadgwA6qK/ZJEYnQTFW+fizWpKE7EFu+0XslQ==
   dependencies:
     "@mdjs/mdjs-preview" "^0.2.0"
     "@mdjs/mdjs-story" "^0.0.1"
@@ -1567,9 +1567,9 @@
   integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.2.6.tgz#83c4afa79e597630f6b7505f73429f08bad3b7c5"
-  integrity sha512-Kr4zK13fEja6kMTLClPAObHiYlgNLlRJbPxJT/xFNIIHUv12AnzAwnpOCb2t4c3JFcaxoeRfMYPYCOzCuSU35Q==
+  version "2.2.12"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.2.12.tgz#167018e792f53d85b7cb7dae0a45db9c200e15aa"
+  integrity sha512-EZ8hMoTOnoayBhZqor7f9UEHVp3bvXYM73ohENgd65Enya3qfT3d7LCWyLfgrLW8gxHPYkSmmaqBg4rjKDFo2g==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
@@ -1579,15 +1579,15 @@
     "@babel/plugin-transform-react-jsx" "^7.9.1"
     "@babel/preset-env" "^7.9.0"
     "@mdx-js/mdx" "^1.5.1"
-    "@open-wc/rollup-plugin-html" "^1.0.4"
-    "@open-wc/rollup-plugin-polyfills-loader" "^1.0.5"
+    "@open-wc/rollup-plugin-html" "^1.0.5"
+    "@open-wc/rollup-plugin-polyfills-loader" "^1.0.6"
     "@rollup/plugin-node-resolve" "^7.1.1"
     babel-plugin-bundled-import-meta "^0.3.2"
     babel-plugin-template-html-minifier "^4.0.0"
     command-line-args "^5.0.2"
     command-line-usage "^6.1.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.50.1"
+    es-dev-server "^1.50.6"
     es-module-lexer "^0.3.13"
     fs-extra "^8.1.0"
     glob "^7.1.3"
@@ -1598,7 +1598,7 @@
     rollup "^2.7.2"
     rollup-plugin-babel "^5.0.0-alpha.1"
     rollup-plugin-terser "^5.2.0"
-    storybook-addon-markdown-docs "^0.3.0"
+    storybook-addon-markdown-docs "^0.3.1"
     storybook-prebuilt "^1.5.0"
 
 "@open-wc/eslint-config@^2.0.4":
@@ -1640,10 +1640,10 @@
     eslint-config-prettier "^3.3.0"
     prettier "^2.0.0"
 
-"@open-wc/rollup-plugin-html@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.0.4.tgz#0552f274f384310f4dc055a14ded4c32ff58ab93"
-  integrity sha512-BB0PwiuHLvATU61yWMUZ0RuyX6ht2Igir+aADMsxtdd0h4Y238kYI1LialUkOZyZ/iooHNrHIo2q+2tHUXdBeQ==
+"@open-wc/rollup-plugin-html@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.0.5.tgz#81efa681f3c6a12e5813639ada018a250a999b46"
+  integrity sha512-EAFiybd7LgckbkktCIMBSj81NkI4EmXYNc7S4rl+9Y3sLtDXvXy1Xf6x0diOSqids8lATW+k3p/H8vOQUvvccA==
   dependencies:
     "@open-wc/building-utils" "^2.18.0"
     "@types/html-minifier" "^3.5.3"
@@ -1652,13 +1652,13 @@
     parse5 "^5.1.1"
     terser "^4.6.7"
 
-"@open-wc/rollup-plugin-polyfills-loader@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.0.5.tgz#dcb1d12b118820e556b8f20ae8161a30af1f17d0"
-  integrity sha512-DyDI4USPsL5VsGXIerRg5fkjv/Ykv+ll0a6EzB2eX9gybi4KC1KOBRz7FJ0swxj2hpLt88yN7bWvzfTcFhqTlA==
+"@open-wc/rollup-plugin-polyfills-loader@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.0.6.tgz#23a31a50a4ea395813c61434c857442ad63192e7"
+  integrity sha512-CjR+UgQe2YX+DQBHtphG8hI8xeSAtUacDgbSuYCu0VF1u6wLdtW+zPHQHnog1PqI/yl8er97RwgCYqMhxqpoBQ==
   dependencies:
-    "@open-wc/rollup-plugin-html" "^1.0.4"
-    polyfills-loader "^1.6.0"
+    "@open-wc/rollup-plugin-html" "^1.0.5"
+    polyfills-loader "^1.6.1"
 
 "@open-wc/scoped-elements@^1.1.1":
   version "1.1.1"
@@ -4363,7 +4363,7 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.5.0, es-dev-server@^1.50.1, es-dev-server@^1.50.6:
+es-dev-server@^1.5.0, es-dev-server@^1.50.6:
   version "1.50.6"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.50.6.tgz#f3827993d151ee7a04ae61701670595d2b175623"
   integrity sha512-9MZziicHR3pqIKvRYFe6al67RMsdEXiXvIzbMYZ6h2ATtr0P0IWpa7hyplK7rfIiF9zkrss6JPfrk+jVusKZSg==
@@ -8051,7 +8051,7 @@ polished@^3.3.1:
   dependencies:
     "@babel/runtime" "^7.6.3"
 
-polyfills-loader@^1.6.0, polyfills-loader@^1.6.1:
+polyfills-loader@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.6.1.tgz#134ab74b9a6160efb4d72066a5150bfb2228fad3"
   integrity sha512-GK3jZGLy9nApfRYfHrrO4RYkBkpjiXUVWVdp169g4Y8HV+ZazrGQX46tNpbwP0dtrgHgADyJvZYPfdFuooHy5Q==
@@ -9626,17 +9626,17 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-storybook-addon-markdown-docs@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.3.0.tgz#58963af9b6f368d583c0e67c496fd22f041f91c9"
-  integrity sha512-TtRM7EL2RBeNBZ8IXd0378d6zDwCNJS6mNCJw5Ev00Z4YdzsOAZJxQafcJq1k/+RcpmuDkV5y3xMCjQtfcX2UA==
+storybook-addon-markdown-docs@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-markdown-docs/-/storybook-addon-markdown-docs-0.3.1.tgz#b25143b7afc51aad27ecc7ed95f3e388c052ab5b"
+  integrity sha512-YSaXwM93NrocFw04iqMAs2V/C0AbxzxHjSuSpa19Bg1D8xO8aDUOpeKMHBXcfL62sSjfmXW3Qssju33DcxEO2w==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
     "@babel/parser" "^7.9.6"
     "@babel/plugin-syntax-import-meta" "^7.8.3"
-    "@mdjs/core" "^0.3.0"
+    "@mdjs/core" "^0.3.1"
     "@mdx-js/mdx" "^1.5.1"
     detab "^2.0.3"
     mdurl "^1.0.1"
