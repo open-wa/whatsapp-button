@@ -1,6 +1,6 @@
 {
   "name": "@open-wa/whatsapp-button",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Webcomponent whatsapp-button following open-wc recommendations",
   "author": "Mohammed Shah <@smashah>",
   "license": "MIT",
