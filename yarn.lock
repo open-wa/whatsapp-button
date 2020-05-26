@@ -1704,9 +1704,9 @@
     mocha "^6.2.2"
 
 "@open-wc/testing@^2.0.0":
-  version "2.5.16"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.16.tgz#a9bbee796b0d0c456251418275dd621a0cac6898"
-  integrity sha512-XFoAi4w6wX9oLELtJNqZh8luZJH7dKyj8sKY4R6dfWBTMLBntPHozyBmmbFC6E47DPhxblvMJdsx+WFcSL1YjQ==
+  version "2.5.17"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.17.tgz#3a3dbc9f2bb5e78201b45621315e047812a4137b"
+  integrity sha512-ozXsOhmf1+mbtKJdbbjPAnfi4HPAkeQYv2zon6rmwv0i0RNZ9S0LkT8wgsn8wpn2+dvckMvks9g/mqXvciaf2g==
   dependencies:
     "@open-wc/chai-dom-equals" "^0.12.36"
     "@open-wc/semantic-dom-diff" "^0.17.9"
@@ -1716,7 +1716,7 @@
     "@types/mocha" "^5.0.0"
     "@types/sinon-chai" "^3.2.3"
     chai "^4.2.0"
-    chai-a11y-axe "^1.2.3"
+    chai-a11y-axe "^1.3.0"
     chai-dom "^1.8.1"
     mocha "^6.2.2"
     sinon-chai "^3.3.0"
@@ -3022,6 +3022,11 @@ axe-core@^3.3.1:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.4.0.tgz#a57ee620c182d5389aff229586aaae06bc541abe"
   integrity sha512-5C0OdgxPv/DrQguO6Taj5F1dY5OlkWg4SVmZIVABFYKWlnAc5WTLPzG+xJSgIwf2fmY+NiNGiZXhXx2qT0u/9Q==
 
+axe-core@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.3.tgz#5b7c0ee7c5197d546bd3a07c3ef701896f5773e9"
+  integrity sha512-HZpLE7xu05+8AbpqXITGdxp1Xwk8ysAXrg7MiKRY27py3DAyEJpoJQo1727pWF3F+O79V3r+cTWhOzfB49P89w==
+
 babel-core@^7.0.0-bridge.0:
   version "7.0.0-bridge.0"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-7.0.0-bridge.0.tgz#95a492ddd90f9b4e9a4a1da14eb335b87b634ece"
@@ -3474,10 +3479,12 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chai-a11y-axe@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/chai-a11y-axe/-/chai-a11y-axe-1.2.3.tgz#8ad34be265023ac9ea9a40ff5c7fe7723ff0682d"
-  integrity sha512-cjZXy4I/GvT/ibQS/Pw3Dz/QaEM+ZfWx5m9Twqcc0HEAWuDpCrf20LRsa84lx5BwdOawkalk0ehmXESWN3hBNw==
+chai-a11y-axe@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/chai-a11y-axe/-/chai-a11y-axe-1.3.0.tgz#10aedef1d4dc732b3df8cf8e20fa7bd734a0e120"
+  integrity sha512-VN0keXMQvkKYC8lDNUiOEXLmKPp1cAddrRrjcdpSL2RIQVWAj1E9EOF3t4CEb2avc9FsoWehUSDAOjtiH0BbsQ==
+  dependencies:
+    axe-core "^3.5.3"
 
 chai-dom@^1.8.1:
   version "1.8.1"
