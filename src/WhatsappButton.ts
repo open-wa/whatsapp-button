@@ -8,7 +8,7 @@ class WhatsappButton extends Button {
 
   @property({ type: String, reflect: true }) text = '';
 
-  @property({ type: String }) link = '';
+  @property({ type: String, reflect: true }) link = '';
 
   @property({ type: String, reflect: true }) dialcode = '';
 
