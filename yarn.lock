@@ -1551,9 +1551,9 @@
   integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.3.tgz#90f2f316444079063226c914edd04b528f423b4c"
-  integrity sha512-TuXZIJJCoOUsSCdEG2OCSLzbDenNf7LwiG850DcgpVHz/6hAdmmPwh6UOyFxp+4Tevjizv9o1y1bk1S2M6Kr6w==
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.4.tgz#77098a5c5ec284e7d4ec339b33d6cc430b1159d1"
+  integrity sha512-PAwsTuxMvfMLctWUAcZeQPnKDotYYyW4yIdWdz+pRxofEk+2hjtUrcc+AZ+lOz2//cNyg1qtGw6AWqE4ahs5vQ==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
@@ -1563,8 +1563,8 @@
     "@babel/plugin-transform-react-jsx" "^7.9.1"
     "@babel/preset-env" "^7.9.0"
     "@mdx-js/mdx" "^1.5.1"
-    "@open-wc/rollup-plugin-html" "^1.0.5"
-    "@open-wc/rollup-plugin-polyfills-loader" "^1.0.6"
+    "@open-wc/rollup-plugin-html" "^1.1.0"
+    "@open-wc/rollup-plugin-polyfills-loader" "^1.0.7"
     "@rollup/plugin-node-resolve" "^7.1.1"
     babel-plugin-bundled-import-meta "^0.3.2"
     babel-plugin-template-html-minifier "^4.0.0"
@@ -1624,24 +1624,25 @@
     eslint-config-prettier "^3.3.0"
     prettier "^2.0.0"
 
-"@open-wc/rollup-plugin-html@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.0.5.tgz#81efa681f3c6a12e5813639ada018a250a999b46"
-  integrity sha512-EAFiybd7LgckbkktCIMBSj81NkI4EmXYNc7S4rl+9Y3sLtDXvXy1Xf6x0diOSqids8lATW+k3p/H8vOQUvvccA==
+"@open-wc/rollup-plugin-html@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.1.0.tgz#3aeecc5c4c17562112a3d1fcea964d7bb3853101"
+  integrity sha512-0VukjFUtC3Ro+kZcQMQqlE9B+FjOTXKJP1ek2jjT1HqeoG5NCHrgGCFe/fLc4G1TDDM5fIuKZ/xcus4TtICWTA==
   dependencies:
     "@open-wc/building-utils" "^2.18.0"
     "@types/html-minifier" "^3.5.3"
     fs-extra "^8.1.0"
+    glob "^7.1.3"
     html-minifier "^4.0.0"
     parse5 "^5.1.1"
     terser "^4.6.7"
 
-"@open-wc/rollup-plugin-polyfills-loader@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.0.6.tgz#23a31a50a4ea395813c61434c857442ad63192e7"
-  integrity sha512-CjR+UgQe2YX+DQBHtphG8hI8xeSAtUacDgbSuYCu0VF1u6wLdtW+zPHQHnog1PqI/yl8er97RwgCYqMhxqpoBQ==
+"@open-wc/rollup-plugin-polyfills-loader@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.0.7.tgz#443f3d314c1a3cc3534d02a8579ed878255e60ca"
+  integrity sha512-ax7jcXWUZaBDO7g3deRvtGNKPHoB9MzHqNAbSqkIY9R1D8cSluzN4LMHdWs0tWKfZzIRJljNvM/1glQqthlJ9A==
   dependencies:
-    "@open-wc/rollup-plugin-html" "^1.0.5"
+    "@open-wc/rollup-plugin-html" "^1.1.0"
     polyfills-loader "^1.6.1"
 
 "@open-wc/scoped-elements@^1.1.1":
