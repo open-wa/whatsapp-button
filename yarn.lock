@@ -1675,15 +1675,15 @@
     lit-html "^1.0.0"
 
 "@open-wc/testing-karma-bs@^1.0.0":
-  version "1.3.75"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.75.tgz#9edf5b9a090a46c3750ff0c9e89e41e53c2a5930"
-  integrity sha512-gHl4KcsT8x8jzY+TnRaEPffYooQu/kVgkn37nQIWXASc4ZrGdMY12BtdmjqJCtMNjXk0a/haH6Vzl/3Ko49BQA==
+  version "1.3.77"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma-bs/-/testing-karma-bs-1.3.77.tgz#21176510c84eed4621ff66a089523c644e3c821e"
+  integrity sha512-EQgXdmRsrqUJbRZeuYyjmiYgLWQ+lkZnODkgwGb3TFOseSNWlIgnTzW5QLT2MvrJXwAV/IUxWq+EPXiRa3siJw==
   dependencies:
-    "@open-wc/testing-karma" "^3.3.32"
+    "@open-wc/testing-karma" "^3.4.1"
     "@types/node" "^11.13.0"
     karma-browserstack-launcher "^1.0.0"
 
-"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.3.32":
+"@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.4.1.tgz#63cff940f4b3906757b8b1ae0ae6cf2877080537"
   integrity sha512-ECtU7r9YmrFcuwomH64pBypR73RSZ15f9tWKhJ+cxJhRNqgiDK3NbMcVGP+yKUVwmPIIOBAZbk8+Ea62wA882A==
@@ -2897,11 +2897,6 @@ aws4@^1.8.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
   integrity sha512-Uvq6hVe90D0B2WEnUqtdgY1bATGz3mw33nH9Y+dmA+w5DHvUmBgkr5rM/KCHpCsiFNRUfokW/szpPPgMK2hm4A==
-
-axe-core@^3.5.3:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.4.tgz#5a7b49ba8c989cd59cde219810ccfb0b7cf72e97"
-  integrity sha512-JRuxixN5bPHre+815qnyqBQzNpRTqGxLWflvjr4REpGZ5o0WXm+ik2IS4PZ01EnacWmVRB4jCPWFiYENMiiasA==
 
 axe-core@^3.5.3:
   version "3.5.3"
