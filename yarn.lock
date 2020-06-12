@@ -1551,9 +1551,9 @@
   integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.5.tgz#03191c599dd1608d26745478a655d491c5208986"
-  integrity sha512-H+8OMuYr9QROFojyvZfJ2hu6XCSRnSCjZ6CVCXMntdTMVjPur7dP8vjx6sCIfEtj01Br2ARpoxUBSMnv5bt0gQ==
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.7.tgz#77a12b95281ff9cadaf692905ab1aa9f1d721709"
+  integrity sha512-yyleVf1zLxpYQRHdZdL/bExIsxwO4nWZhvLUxsT2M4KkbnoZt2SlWmku0oUOuHvUb+tlrirplClr5C3vLDHVJw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
@@ -1571,7 +1571,7 @@
     command-line-args "^5.0.2"
     command-line-usage "^6.1.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.54.0"
+    es-dev-server "^1.55.0"
     es-module-lexer "^0.3.13"
     fs-extra "^8.1.0"
     glob "^7.1.3"
@@ -4332,7 +4332,7 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.5.0, es-dev-server@^1.54.0, es-dev-server@^1.55.0:
+es-dev-server@^1.5.0, es-dev-server@^1.55.0:
   version "1.55.0"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.55.0.tgz#c378990096a0f5c6bd41054a5405d8ffd7c38fa3"
   integrity sha512-D4be5MVGBDw2/OO79xCTw1qqMbttao8SovhRelhUQ7+dFaInF/dC+so6vJKuuTFvVRpSVXF320F/0rMJ8R5FcA==
