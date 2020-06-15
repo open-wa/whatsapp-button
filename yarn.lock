@@ -1684,9 +1684,9 @@
     karma-browserstack-launcher "^1.0.0"
 
 "@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.4.1":
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.4.3.tgz#5ab6a788ccaa731bc2efd42c78cfddef53a65a38"
-  integrity sha512-38xilLJ+dyFjWM3JA0GV/11+zvS4Ju681rJhKwXwjG0f5aWTcxNV5XTNpXsAnPG36HrTBQJHeUO4Ktn8ejQfwQ==
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.4.4.tgz#56dfe3791d8d75f14ac96490778bb4942da9f992"
+  integrity sha512-rlXsQECBktku4PN0QiCVHW04B0kBRzyYlK71yLDOskBWTLAEdxN7A6wQKvNU58cgjQe5lzP8AyAgAqWKu7yx1A==
   dependencies:
     "@open-wc/karma-esm" "^2.16.14"
     "@types/karma" "^5.0.0"
