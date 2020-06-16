@@ -1551,9 +1551,9 @@
   integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.8.tgz#7d2f7cb7fbc5ba3884ddea6ff3ff777bccfaea7d"
-  integrity sha512-87peVzOcU+CQJa5bh7j9xlZwqAWtBKtSN01+Too7O6LfsvoRnVAzHySZwZu3D6vPllHGbqlEB/4YZKfDKHrTCA==
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.3.9.tgz#9eb3f1840357c950bf98fee5bc6382ef8f6b117e"
+  integrity sha512-BMu8dntrdgNznnTmqzCk/aAOf05dHOuC626dedo88+1Wvc1M7bjlGsrX5KY5ztKl8D/SrvV2s2RxSNYqnJIa1Q==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/generator" "^7.9.6"
