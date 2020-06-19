@@ -4,6 +4,7 @@ declare class WhatsappButton extends Button {
     text: string;
     link: string;
     dialcode: string;
+    responsive: boolean;
     static get styles(): import("lit-element").CSSResult[];
     constructor();
     firstUpdated(): void;

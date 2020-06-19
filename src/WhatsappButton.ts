@@ -12,6 +12,8 @@ class WhatsappButton extends Button {
 
   @property({ type: String, reflect: true }) dialcode = '';
 
+  @property({ type: Boolean, reflect: true }) responsive = false;
+
   static get styles() {
     return [
       super.styles,
@@ -45,7 +47,7 @@ class WhatsappButton extends Button {
         }
 
         @media (max-width: 600px) {
-          :host {
+          :host([responsive]) {
             position: fixed;
             bottom: 0 !important;
             right: 0 !important;
@@ -58,7 +60,7 @@ class WhatsappButton extends Button {
             border-top-right-radius: 20px;
           }
 
-          #button {
+          :host([responsive]) #button {
             width: 80vw;
             border-radius: 20px;
           }

@@ -28,6 +28,12 @@
           "type": "String",
           "description": "The number to which to start the conversation with and send the text",
           "default": ""
+        },
+        {
+          "name": "responsive",
+          "type": "Boolean",
+          "description": "If true, the component will automatically stick to the bottom of the screen on mobile devices for a clean responsive look.",
+          "default": false
         }
       ],
       "events": [],
