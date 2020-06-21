@@ -67,3 +67,13 @@ This demo shows how you can make the component globally responsive by adding 're
   `}
 </Story>
 
+
+###### Bypass WhatsApp
+
+This demo shows how to skip the redirect to WhatsApp's ugly page by adding 'bypass' as a html tag flag. It will trigger a dialog (which will close itself after 5 seconds) and automatically open up the WhatsApp chat wihtout leaving your site!
+
+<Story name="Bypass WhatsApp">
+  {html`
+    <whatsapp-button .title=${'Hello World'} bypass></whatsapp-button>
+  `}
+</Story>

@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
+  <!-- <script type="module" src="https://unpkg.com/x-frame-bypass"></script> -->
   <style>
     body {
       background: #fafafa;
@@ -16,7 +17,7 @@
 
     render(
       html`
-        <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Let's Talk">
+        <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Let's Talk" bypass>
         </whatsapp-button>
       `,
       document.querySelector('#demo')

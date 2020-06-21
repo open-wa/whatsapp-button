@@ -1,5 +1,9 @@
 import { css, svg, customElement, property } from 'lit-element';
 import { Button } from '@material/mwc-button';
+import 'x-frame-bypass';
+import '@vaadin/vaadin-dialog';
+import '@vaadin/vaadin-button';
+import '@vaadin/vaadin-progress-bar';
 
 @customElement('whatsapp-button')
 // @ts-ignore
@@ -13,6 +17,10 @@ class WhatsappButton extends Button {
   @property({ type: String, reflect: true }) dialcode = '';
 
   @property({ type: Boolean, reflect: true }) responsive = false;
+
+  @property({ type: Boolean, reflect: true }) bypass = false;
+
+  @property({ type: Boolean, reflect: true }) _showButtonInDialog = false;
 
   static get styles() {
     return [
@@ -86,8 +94,44 @@ class WhatsappButton extends Button {
           eventAction: 'click',
           eventLabel: 'wa-start-message',
         });
+        if(this.bypass) {
+          //inject iframe
+          this.injectIframe();
+        } else
       window.open(this.link);
     };
+  }
+
+  injectIframe(){
+    if(this.shadowRoot){
+    this.shadowRoot.innerHTML+=`<vaadin-dialog >
+    </vaadin-dialog>`;
+    const dialog : any = this.shadowRoot.querySelector('vaadin-dialog');
+    //@ts-ignore
+    dialog.renderer = (root, dialog) => {
+      // Check if there is a DOM generated with the previous renderer call to update its content instead of recreation
+      if (root.firstElementChild) {
+        return;
+      }
+      root.innerHTML=`
+      <h1>Opening WhatsApp</h1>
+      <div>Once the chat opens, just hit send!</div>
+      <vaadin-progress-bar indeterminate value="0" style="margin-top:16px;"></vaadin-progress-bar>
+      <p style="font-size:9px;display:${this._showButtonInDialog?'':'none'}">If the chat doesn't open automatically, press the button below.</p>
+      <a href="${this.link}"><vaadin-button style="display:${this._showButtonInDialog?'':'none'}">Try another way</vaadin-button></a>
+      <iframe is="x-frame-bypass" src="${this.link}" style="display: none;" ></iframe>
+     `
+    };
+    
+    if(dialog) {
+      dialog.opened = true;
+    }
+    this._showButtonInDialog = true;
+    setTimeout(
+      function() {
+        dialog.opened = false;
+      }, 5000);
+  }
   }
 
   firstUpdated() {
@@ -95,5 +139,6 @@ class WhatsappButton extends Button {
       this.phone
     }&text=${encodeURIComponent(this.text)}`;
   }
+
 }
 export { WhatsappButton };

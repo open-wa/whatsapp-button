@@ -34,6 +34,12 @@
           "type": "Boolean",
           "description": "If true, the component will automatically stick to the bottom of the screen on mobile devices for a clean responsive look.",
           "default": false
+        },
+        {
+          "name": "bypass",
+          "type": "Boolean",
+          "description": "If true, the component will show a dialog and try to open whatsapp itself instead of redirecting via WhatsApps ugly page.",
+          "default": false
         }
       ],
       "events": [],
