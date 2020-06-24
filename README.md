@@ -57,6 +57,14 @@ Or grab from [unpkg.com CDN](https://unpkg.com/@open-wa/whatsapp-button?module):
 
 You can check out an example of it working here: [JsFiddle](https://jsfiddle.net/8cgwvmbd/1/)
 
+## How do I bypass WhatsApp's fugly redirect site?
+
+I'm glad you asked! You can simply add the `bypass` attribute. This will result in opening the WhatsApp chat WITHOUT being redirected!
+
+```html
+<whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Start Chat" bypass></whatsapp-button>
+```
+
 ## Linting with ESLint, Prettier, and Types
 
 To scan the project for linting errors, run
