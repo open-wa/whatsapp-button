@@ -102,6 +102,10 @@ class WhatsappButton extends Button {
         } else
       window.open(this.link);
     };
+    //@ts-ignore
+    this.click = this.onclick;
+    //@ts-ignore
+    this.tap = this.onclick;
   }
 
   injectIframe(){
