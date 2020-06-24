@@ -1,6 +1,5 @@
 import { css, svg, customElement, property } from 'lit-element';
 import { Button } from '@material/mwc-button';
-import 'x-frame-bypass';
 import '@vaadin/vaadin-dialog';
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-progress-bar';
@@ -13,6 +12,8 @@ class WhatsappButton extends Button {
   @property({ type: String, reflect: true }) text = '';
 
   @property({ type: String, reflect: true }) link = '';
+
+  @property({ type: String, reflect: true }) appLink = '';
 
   @property({ type: String, reflect: true }) dialcode = '';
 
@@ -97,6 +98,7 @@ class WhatsappButton extends Button {
         if(this.bypass) {
           //inject iframe
           this.injectIframe();
+          window.open(this.appLink);
         } else
       window.open(this.link);
     };
@@ -119,7 +121,6 @@ class WhatsappButton extends Button {
       <vaadin-progress-bar indeterminate value="0" style="margin-top:16px;"></vaadin-progress-bar>
       <p style="font-size:9px;display:${this._showButtonInDialog?'':'none'}">If the chat doesn't open automatically, press the button below.</p>
       <a href="${this.link}"><vaadin-button style="display:${this._showButtonInDialog?'':'none'}">Try another way</vaadin-button></a>
-      <iframe is="x-frame-bypass" src="${this.link}" style="display: none;" ></iframe>
      `
     };
     
@@ -138,6 +139,7 @@ class WhatsappButton extends Button {
     this.link = `https://api.whatsapp.com/send?phone=${this.dialcode}${
       this.phone
     }&text=${encodeURIComponent(this.text)}`;
+    this.appLink = this.link.replace('https://api.whatsapp.com',' whatsapp:/')
   }
 
 }
