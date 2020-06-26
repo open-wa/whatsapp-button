@@ -1247,6 +1247,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@koa/cors@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@koa/cors/-/cors-3.1.0.tgz#618bb073438cfdbd3ebd0e648a76e33b84f3a3b2"
+  integrity sha512-7ulRC1da/rBa6kj6P4g2aJfnET3z8Uf3SWu60cjbtxTA5g8lxRdX/Bd2P92EagGwwAhANeNw8T8if99rJliR6Q==
+  dependencies:
+    vary "^1.1.2"
+
 "@material/animation@7.0.0-canary.d92d8c93e.0":
   version "7.0.0-canary.d92d8c93e.0"
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-7.0.0-canary.d92d8c93e.0.tgz#7aa9f15b710c478c84ac31e239f0c3d85192fbc1"
@@ -1600,16 +1607,16 @@
     eslint-plugin-no-only-tests "^2.4.0"
     eslint-plugin-wc "^1.2.0"
 
-"@open-wc/karma-esm@^2.16.15":
-  version "2.16.15"
-  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.16.15.tgz#762a543dcf7a7eddd1c8204d8cbd2b7c1908b28e"
-  integrity sha512-L5/Aux653aLAQrbH7MLnYAMCYVp6Wdwe5JkGIt9pOgEBBIDRosBkxOpYpcvgPN7O8wnGUx3J9VnsJ7romS7VwA==
+"@open-wc/karma-esm@^2.16.16":
+  version "2.16.16"
+  resolved "https://registry.yarnpkg.com/@open-wc/karma-esm/-/karma-esm-2.16.16.tgz#6ebff57f249e95f777b7e04782ef08ed41e22f53"
+  integrity sha512-IALT10JfwK+h7T0hGKTUliGdkWzQbyQg195D+RfUteIoTof6Z5+dBp7JUh2fQygIyNj7IIYHJ9ej816QlgHjdA==
   dependencies:
     "@open-wc/building-utils" "^2.18.0"
     babel-plugin-istanbul "^5.1.4"
     chokidar "^3.0.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.55.1"
+    es-dev-server "^1.56.0"
     minimatch "^3.0.4"
     node-fetch "^2.6.0"
     polyfills-loader "^1.6.1"
@@ -1684,11 +1691,11 @@
     karma-browserstack-launcher "^1.0.0"
 
 "@open-wc/testing-karma@^3.0.0", "@open-wc/testing-karma@^3.4.4":
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.4.5.tgz#116205167418e0b879992b2eac3f3d727f7a716e"
-  integrity sha512-PfudlhY8N0hiW7nKv+WvyjaGVsWXLqMvkmGSC9mDaIoK2A3Re3cQZuO8Rum3q+jAKC/3qlaYb4AYd64HtpZ1pw==
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.4.6.tgz#aacf5df4d17887017970bc22bcc7d9167f13f663"
+  integrity sha512-DTCzmZY1NOlhTnwef8N9ENd/TOykkIAXlJG36hjMRvBE3l0gYI1t+9N9x3f8jWHzrEzfTk5Hi7//iMUU0eLcZg==
   dependencies:
-    "@open-wc/karma-esm" "^2.16.15"
+    "@open-wc/karma-esm" "^2.16.16"
     "@types/karma" "^5.0.0"
     "@types/karma-coverage-istanbul-reporter" "^2.1.0"
     "@types/karma-mocha" "^1.3.0"
@@ -2355,6 +2362,13 @@
     "@types/keygrip" "*"
     "@types/koa-compose" "*"
     "@types/node" "*"
+
+"@types/koa__cors@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/koa__cors/-/koa__cors-3.0.1.tgz#a8cf8535f0fe682c9421f1b9379837c585f8b66b"
+  integrity sha512-loqZNXliley8kncc4wrX9KMqLGN6YfiaO3a3VFX+yVkkXJwOrZU4lipdudNjw5mFyC+5hd7h9075hQWcVVpeOg==
+  dependencies:
+    "@types/koa" "*"
 
 "@types/lru-cache@^5.1.0":
   version "5.1.0"
@@ -4538,10 +4552,10 @@ es-dev-server@^1.5.0, es-dev-server@^1.55.0:
     useragent "^2.3.0"
     whatwg-url "^7.0.0"
 
-es-dev-server@^1.55.1:
-  version "1.55.1"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.55.1.tgz#27927eafe8c17fb4be6094d9d0f456fb94b315e6"
-  integrity sha512-oTkbQzisJza2jCKmRnrxv5TSE2X1I1FDi+bAqIijSCpNkUGYQ5w34unoUfnQdVznWmhFrNJVjn8whiAzridMkQ==
+es-dev-server@^1.56.0:
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.56.0.tgz#8703af87595f02fe9a1c92a07e64b7c7cc915a87"
+  integrity sha512-SL4CXdiku0hiB8zpsBLtEd7b8etIZE6IV0tIi02m0CcpTYV0rDMEvCBUYsQIN5hggJDDTBURgQjOWcT5kQv2eA==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -4554,6 +4568,7 @@ es-dev-server@^1.55.1:
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-transform-template-literals" "^7.8.3"
     "@babel/preset-env" "^7.9.0"
+    "@koa/cors" "^3.1.0"
     "@open-wc/building-utils" "^2.18.0"
     "@rollup/plugin-node-resolve" "^7.1.1"
     "@rollup/pluginutils" "^3.0.0"
@@ -4568,6 +4583,7 @@ es-dev-server@^1.55.1:
     "@types/koa-compress" "^2.0.9"
     "@types/koa-etag" "^3.0.0"
     "@types/koa-static" "^4.0.1"
+    "@types/koa__cors" "^3.0.1"
     "@types/lru-cache" "^5.1.0"
     "@types/minimatch" "^3.0.3"
     "@types/path-is-inside" "^1.0.0"
@@ -11097,11 +11113,6 @@ ws@~3.3.1:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
-
-x-frame-bypass@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/x-frame-bypass/-/x-frame-bypass-1.0.2.tgz#62c39313b1be75088d183e2189f2f8c2f955cfaa"
-  integrity sha512-9NQ/DZABhyIST8uO9p4oXwJjfkAlwrW4jz2m/jNMXKSm6er+BLAf3QwqQDBm8xg6DDry+73WUTSr/ly2165k9A==
 
 x-is-string@^0.1.0:
   version "0.1.0"
