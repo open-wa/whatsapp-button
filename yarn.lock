@@ -1489,10 +1489,10 @@
     "@open-wc/semantic-dom-diff" "^0.13.16"
     "@types/chai" "^4.1.7"
 
-"@open-wc/dedupe-mixin@^1.2.17":
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/@open-wc/dedupe-mixin/-/dedupe-mixin-1.2.17.tgz#50fb903fc8785639487d7987caae45d7bba08ec7"
-  integrity sha512-9A3WohqNxEloJa4y1DuBL5zH12cNRNW1vsrkiaLMnOGuQdhibs2XY1oliudsKpvIeNjDXRVRPUdIIzn65BypCw==
+"@open-wc/dedupe-mixin@^1.2.18":
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/@open-wc/dedupe-mixin/-/dedupe-mixin-1.2.18.tgz#2a86672fb3558fe2a2e1c5587dbaa0b485567ef1"
+  integrity sha512-1HpblP5edeENi0SKms7B+PKYdxHMBIQpaf0nAgTVsZeYgM9OJ3r9nrK/0MOUBZODAOZ1quvO3wlpuljq2hZPWA==
 
 "@open-wc/demoing-storybook@^2.0.0":
   version "2.3.11"
@@ -1589,12 +1589,12 @@
     "@open-wc/rollup-plugin-html" "^1.1.0"
     polyfills-loader "^1.6.1"
 
-"@open-wc/scoped-elements@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@open-wc/scoped-elements/-/scoped-elements-1.1.1.tgz#732744dac4d029ffacdeb169d85855714eda9d0c"
-  integrity sha512-Fx9bFOA14xGeNFQpSeyp6GmqW1vJyETr1qlem9pDS3hlK/HpWUtoBRAPyo4yexjY+aeSsenUeAYDXzPWQgeWXw==
+"@open-wc/scoped-elements@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@open-wc/scoped-elements/-/scoped-elements-1.1.2.tgz#1cdcf52769437d8245227d31faaced8c2fd8fee0"
+  integrity sha512-2aZ8Ibfxhn1+ipBTvL8l84JTzptmGOd5NiLqlojn4QJQnJ/mEQXf9+g/Jj991ga+3nt1R+vRlO4JSrgqkCiyIQ==
   dependencies:
-    "@open-wc/dedupe-mixin" "^1.2.17"
+    "@open-wc/dedupe-mixin" "^1.2.18"
     lit-html "^1.0.0"
 
 "@open-wc/semantic-dom-diff@^0.13.16":
@@ -1609,12 +1609,12 @@
   dependencies:
     "@types/chai" "^4.2.11"
 
-"@open-wc/testing-helpers@^1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.8.3.tgz#ae82e3ac71f1c22ff86ef742424c8db32deb73eb"
-  integrity sha512-VLtX4cQ6dNMUMSbe3fsWZ0Laqo2cBX3titILczJ9qmXJeeB7MTXsZNck9B92a2aHz9w3C9FswQ0f/krqf/E8ng==
+"@open-wc/testing-helpers@^1.8.3", "@open-wc/testing-helpers@^1.8.4":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.8.4.tgz#25c700ae3ce70ba586d496334b511a7c767c29f0"
+  integrity sha512-YkObNL45tX3z4MYoJnTNRRqqH8qcTmF1pqzQBRnO7XOGelktOamEODcr+YYOpftlbPFvLyegYy2wMy6M+Szdyg==
   dependencies:
-    "@open-wc/scoped-elements" "^1.1.1"
+    "@open-wc/scoped-elements" "^1.1.2"
     lit-element "^2.2.1"
     lit-html "^1.0.0"
 
@@ -9815,11 +9815,11 @@ storybook-addon-markdown-docs@^0.4.1:
     unist-util-visit-parents "^3.0.2"
 
 storybook-addon-web-components-knobs@^0.3.1:
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.11.tgz#548d084c30854075e4019431179c5d110694beb2"
-  integrity sha512-j0PLamaUSpC/qlkMrwZKcCv43NYgq/eGk1CqvSWlK8LOBTbsWmGLCWH9ltRrutgOrmVTeEHujnU68w1giDFuvQ==
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.12.tgz#603db7ab7663fe16b2bfd4a72899398a23f5604d"
+  integrity sha512-mPRNAX1nlYyMgSky5lG674VG8g1Qzvd4xMpcgtVGUgFLHfqCbVoT8WA+WRf+W23sULNKGVnxN+hLSUs/c2Ga4A==
   dependencies:
-    "@open-wc/testing-helpers" "^1.8.3"
+    "@open-wc/testing-helpers" "^1.8.4"
 
 storybook-prebuilt@^1.5.0:
   version "1.5.2"
