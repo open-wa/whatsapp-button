@@ -2554,9 +2554,9 @@
   integrity sha512-S+PaFrZpK8uBIOnIHxjntTrgumd5ztuCnZww96ydGKXgo9whXfZsbMwDuD/102a/IuPUMyF+dh/n3PbWzJ6igA==
 
 "@vaadin/vaadin-dialog@^2.4.1":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-dialog/-/vaadin-dialog-2.4.2.tgz#32bac87352d99311e427fa6e2e8546d7b5741c6c"
-  integrity sha512-p1rYdJ12QkcLUcx67lvHOy9Fqc9L7IKcK7dR+eCvrsdmVn3EJWHQ9m1OykbWriCmdGTYpvYSt5nrlcPYjGGjeQ==
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-dialog/-/vaadin-dialog-2.4.3.tgz#a132a9177a83c5c386943be133791deefc08d586"
+  integrity sha512-TQBTd5yDrUrv0SC9oAKRA+kYdfElfNGNlWy0X8edA7cBV1e6BPBBXgIdzu3M03BX9G80zG7H4vDBYCGFNM5BFg==
   dependencies:
     "@polymer/iron-resizable-behavior" "^3.0.0"
     "@polymer/polymer" "^3.0.0"
