@@ -33,7 +33,7 @@
     "sbbad": "npm run storybook:build && npm run deploy-storybook"
   },
   "dependencies": {
-    "@material/mwc-button": "0.17.2",
+    "@material/mwc-button": "0.18.0",
     "@polymer/polymer": "^3.3.1",
     "@vaadin/vaadin-button": "^2.3.0",
     "@vaadin/vaadin-dialog": "^2.4.1",
