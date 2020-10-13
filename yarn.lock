@@ -1601,7 +1601,7 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@open-wc/building-utils@^2.18.2", "@open-wc/building-utils@^2.18.3":
+"@open-wc/building-utils@^2.18.3":
   version "2.18.3"
   resolved "https://registry.yarnpkg.com/@open-wc/building-utils/-/building-utils-2.18.3.tgz#bfee503586f690641c3d32dce3b6b165ccfbaedf"
   integrity sha512-qBVCYK31onFyLrzDu2hpCDyQUl01C5iwFQq6NVUf4jisEkDQdsVHWTEYXXUf8ztCMe1o8tHmfe9C68fUYQZBJw==
@@ -1647,9 +1647,9 @@
   integrity sha512-UfdK1MPnR6T7f3svzzYBfu3qBkkZ/KsPhcpc3JYhsUY4hbpwNF9wEQtD4Z+/mRqMTJrKg++YSxIxE0FBhY3RIw==
 
 "@open-wc/demoing-storybook@^2.0.0":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.4.4.tgz#ad7272c677de1ea524eb6e63ae7dd80cf1c8c40b"
-  integrity sha512-g+gPgn6MyX5P1aUSym5fDLhTLV2Fi6sVy3Dh9zZkbjW4vsoSIXNEcT6rMrEHp2jxMFCovDMNmvWrSLQokBbCqw==
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.4.5.tgz#9b73d8849f305013a37d99569be799d33dc37686"
+  integrity sha512-nGn+qn87dB10Ez+y15vfFE8w6KEO0HYX1LIRjMute/SuH4Y0hADrCayWVJ3fKCKMMQlgxlnmQ3EETdIMLwIzHQ==
   dependencies:
     "@babel/core" "^7.11.1"
     "@babel/generator" "^7.9.6"
@@ -1659,15 +1659,15 @@
     "@babel/plugin-transform-react-jsx" "^7.9.1"
     "@babel/preset-env" "^7.9.0"
     "@mdx-js/mdx" "^1.5.1"
-    "@open-wc/rollup-plugin-html" "^1.2.4"
-    "@open-wc/rollup-plugin-polyfills-loader" "^1.1.6"
+    "@open-wc/rollup-plugin-html" "^1.2.5"
+    "@open-wc/rollup-plugin-polyfills-loader" "^1.1.7"
     "@rollup/plugin-node-resolve" "^7.1.1"
     babel-plugin-bundled-import-meta "^0.3.2"
     babel-plugin-template-html-minifier "^4.0.0"
     command-line-args "^5.0.2"
     command-line-usage "^6.1.0"
     deepmerge "^4.2.2"
-    es-dev-server "^1.57.7"
+    es-dev-server "^1.57.8"
     es-module-lexer "^0.3.13"
     fs-extra "^8.1.0"
     glob "^7.1.3"
@@ -1720,25 +1720,25 @@
     eslint-config-prettier "^3.3.0"
     prettier "^2.0.0"
 
-"@open-wc/rollup-plugin-html@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.2.4.tgz#846fe24229183160c3990fb2043a82a846bc023a"
-  integrity sha512-YhFHFVuIf8RpBWVhrVRaR9JSJssjlAr9muVKAs2Nvvg4hpSP3chE9OB4AXRbGOgno7cdVeeUKbPev12RWty0kg==
+"@open-wc/rollup-plugin-html@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-html/-/rollup-plugin-html-1.2.5.tgz#d9dc1c5a5c302700287e7abe26c608ba0c47495d"
+  integrity sha512-iW/sP/zLEjRN8DuHgAkUg3A3eOYoMgY+dJs7kiVhpKTLSKA5ETybrPeM4i/VS3q2D2wc3hwhnzvEmc8hN4mFQQ==
   dependencies:
-    "@open-wc/building-utils" "^2.18.2"
+    "@open-wc/building-utils" "^2.18.3"
     "@types/html-minifier" "^3.5.3"
     fs-extra "^8.1.0"
     glob "^7.1.3"
     html-minifier-terser "^5.1.1"
     parse5 "^5.1.1"
 
-"@open-wc/rollup-plugin-polyfills-loader@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.1.6.tgz#b11806920f117fec61ef2842f1c9fc9271805ff4"
-  integrity sha512-ox4vtfINKHibmU+BIOW5orRuPDO2wAQHClHb6Td7F4whAlFz83xa/4PBcrX83+t4YGZXnz2fqtZbPvHVLG/oPg==
+"@open-wc/rollup-plugin-polyfills-loader@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@open-wc/rollup-plugin-polyfills-loader/-/rollup-plugin-polyfills-loader-1.1.7.tgz#4b1e0d1ef29cb351b03d791b891a30099e680653"
+  integrity sha512-Ar1HRmHK8BDGrRGgU20sw8ZgUFyvZhli7Hujy41krPvtqK73N1c9RDjIfeA6CyNGM+DsR/HIGyRyWs12J8OEsg==
   dependencies:
-    "@open-wc/rollup-plugin-html" "^1.2.4"
-    polyfills-loader "^1.7.3"
+    "@open-wc/rollup-plugin-html" "^1.2.5"
+    polyfills-loader "^1.7.4"
 
 "@open-wc/scoped-elements@^1.2.2":
   version "1.2.2"
@@ -4626,7 +4626,7 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.5.0, es-dev-server@^1.57.7, es-dev-server@^1.57.8:
+es-dev-server@^1.5.0, es-dev-server@^1.57.8:
   version "1.57.8"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.57.8.tgz#5aa107f27066686a75ebf03fed412a7de3d7127d"
   integrity sha512-+zfCy3hH337ktOoHJLcpEIoxRPWAuJA6SjgMFz1ZVV8DYksK/zITrhQbB4SzAkxRNXwJsc+knM29mTTsbwAXHw==
@@ -8429,7 +8429,7 @@ polished@^3.3.1:
   dependencies:
     "@babel/runtime" "^7.6.3"
 
-polyfills-loader@^1.7.3, polyfills-loader@^1.7.4:
+polyfills-loader@^1.7.4:
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.7.4.tgz#8de53f7672fcab6dc103a35451a7c5641ceb7ac1"
   integrity sha512-hF1WXPvH0lOtfTuri2DUlgnsFnYDKl2E2HQ3FyaiulcMnVmtKpEHSKKnQ7O5lvT3DWs4L21mNuWbrmI1iAjFtQ==
