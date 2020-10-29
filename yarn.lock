@@ -1740,10 +1740,10 @@
     "@open-wc/rollup-plugin-html" "^1.2.5"
     polyfills-loader "^1.7.4"
 
-"@open-wc/scoped-elements@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@open-wc/scoped-elements/-/scoped-elements-1.2.2.tgz#e1eb9fbbedf2ba56ca07174bf17e7910da9964a7"
-  integrity sha512-C3JU79gNBmcxqKqZ8aTargPmBBwQvyws6lhfZ+9I0NH8SKk0k6ExjzyUwsDa2i/kbhBuUE5NebaDZJM5Jw4/6w==
+"@open-wc/scoped-elements@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@open-wc/scoped-elements/-/scoped-elements-1.2.4.tgz#56e999a0611c2ac62c1ba11ab2747cb5a5721027"
+  integrity sha512-pWPe0c3+Ln43gYT6oBDCyo0SLysDWGRJJODKpgf4lhwru6ISXNRx0GDbpmfYYpmboDWpXXB3GizjVSMeZB+yEA==
   dependencies:
     "@open-wc/dedupe-mixin" "^1.3.0"
     lit-html "^1.0.0"
@@ -1760,12 +1760,12 @@
   dependencies:
     "@types/chai" "^4.2.11"
 
-"@open-wc/testing-helpers@^1.8.10":
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.8.10.tgz#163a28b4c7df81bd7c1778447b2b60984e556c92"
-  integrity sha512-HMo650TxJUcc8Y6anqNh/ZREQvbsCsRYjB+usApGWGVHjRFShhupHApNptHF3BOCWk5QwjguRWhLDSh2wWLK+A==
+"@open-wc/testing-helpers@^1.8.10", "@open-wc/testing-helpers@^1.8.12":
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.8.12.tgz#449865689b0283c117326c1e0975834406bb0855"
+  integrity sha512-+4exEHYvnFqI1RGDDIKFHPZ7Ws5NK1epvEku3zLaOYN3zc+huX19SndNc5+X++v8A+quN/iXbHlh80ROyNaYDA==
   dependencies:
-    "@open-wc/scoped-elements" "^1.2.2"
+    "@open-wc/scoped-elements" "^1.2.4"
     lit-element "^2.2.1"
     lit-html "^1.0.0"
 
@@ -10083,11 +10083,11 @@ storybook-addon-markdown-docs@^0.4.3:
     unist-util-visit-parents "^3.0.2"
 
 storybook-addon-web-components-knobs@^0.3.1:
-  version "0.3.18"
-  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.18.tgz#41c48fbebfd3b2538d92bf81b6ab430c44e9b051"
-  integrity sha512-nXqV9M36Qq4LAm+8EHTKfNW/VJLU7zmgHqEGSR5Cr0QfZM+1t4jCSrPXOv3NTU9jtegtI/0JxVge75hWMSDirw==
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/storybook-addon-web-components-knobs/-/storybook-addon-web-components-knobs-0.3.20.tgz#6f903bd338494a2880844ff24c2641b2c7aba031"
+  integrity sha512-Hb4MZqT0pJgxIbl9ypukHgdiCEoLs4qqeIBsQvRAF+4edyGQ0JY4w+EKbCIbIM9U0PWfQOcSI8adGvNaN1vipg==
   dependencies:
-    "@open-wc/testing-helpers" "^1.8.10"
+    "@open-wc/testing-helpers" "^1.8.12"
 
 storybook-prebuilt@^1.5.0:
   version "1.5.2"
