@@ -44,7 +44,7 @@
   "devDependencies": {
     "@open-wc/demoing-storybook": "^2.0.0",
     "@storybook/addon-docs": "^5.3.14",
-    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-knobs": "^6.1.1",
     "@open-wc/eslint-config": "^2.0.4",
     "@open-wc/prettier-config": "^1.1.0",
     "@open-wc/testing": "^2.0.0",
