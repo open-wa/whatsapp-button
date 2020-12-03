@@ -2646,6 +2646,11 @@
   dependencies:
     "@types/unist" "*"
 
+"@types/mime-types@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/mime-types/-/mime-types-2.1.0.tgz#9ca52cda363f699c69466c2a6ccdaad913ea7a73"
+  integrity sha1-nKUs2jY/aZxpRmwqbM2q2RPqenM=
+
 "@types/mime@*":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
@@ -4833,9 +4838,9 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2:
     string.prototype.trimright "^2.1.1"
 
 es-dev-server@^1.5.0, es-dev-server@^1.57.8:
-  version "1.57.8"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.57.8.tgz#5aa107f27066686a75ebf03fed412a7de3d7127d"
-  integrity sha512-+zfCy3hH337ktOoHJLcpEIoxRPWAuJA6SjgMFz1ZVV8DYksK/zITrhQbB4SzAkxRNXwJsc+knM29mTTsbwAXHw==
+  version "1.60.1"
+  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.60.1.tgz#79f6906b6115093787e3966055027a6575174632"
+  integrity sha512-7/bn3j51qqQ+D9EKu3vup44XhRGzhNKwTf7MPykv9j7NucIw5BlRJCL0rqMXDF7MCiRiS1RRgblKM7dNKBIp5g==
   dependencies:
     "@babel/core" "^7.11.1"
     "@babel/plugin-proposal-dynamic-import" "^7.10.4"
@@ -4865,6 +4870,7 @@ es-dev-server@^1.5.0, es-dev-server@^1.57.8:
     "@types/koa-static" "^4.0.1"
     "@types/koa__cors" "^3.0.1"
     "@types/lru-cache" "^5.1.0"
+    "@types/mime-types" "^2.1.0"
     "@types/minimatch" "^3.0.3"
     "@types/path-is-inside" "^1.0.0"
     "@types/whatwg-url" "^6.4.0"
@@ -8739,28 +8745,7 @@ polished@^3.4.4:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-polyfills-loader@^1.7.4:
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.7.4.tgz#8de53f7672fcab6dc103a35451a7c5641ceb7ac1"
-  integrity sha512-hF1WXPvH0lOtfTuri2DUlgnsFnYDKl2E2HQ3FyaiulcMnVmtKpEHSKKnQ7O5lvT3DWs4L21mNuWbrmI1iAjFtQ==
-  dependencies:
-    "@babel/core" "^7.11.1"
-    "@open-wc/building-utils" "^2.18.3"
-    "@webcomponents/webcomponentsjs" "^2.4.0"
-    abortcontroller-polyfill "^1.4.0"
-    core-js-bundle "^3.6.0"
-    deepmerge "^4.2.2"
-    dynamic-import-polyfill "^0.1.1"
-    es-module-shims "^0.4.6"
-    intersection-observer "^0.7.0"
-    parse5 "^5.1.1"
-    regenerator-runtime "^0.13.3"
-    resize-observer-polyfill "^1.5.1"
-    systemjs "^6.3.1"
-    terser "^4.6.7"
-    whatwg-fetch "^3.0.0"
-
-polyfills-loader@^1.7.5:
+polyfills-loader@^1.7.4, polyfills-loader@^1.7.5:
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.7.5.tgz#a05342a14e18b1e4cadb99adde5275d20da8e196"
   integrity sha512-4OjSRiMsCUiDHxbQLOXPJ/QWXd6tHenBlxwS0qClgV+XZQre6UD8Fh3bSjFfnkRGRsqfrnjT7dFUJxxAFMe1qQ==
