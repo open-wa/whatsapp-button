@@ -2972,17 +2972,17 @@
   integrity sha512-S+PaFrZpK8uBIOnIHxjntTrgumd5ztuCnZww96ydGKXgo9whXfZsbMwDuD/102a/IuPUMyF+dh/n3PbWzJ6igA==
 
 "@vaadin/vaadin-dialog@^2.4.1":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-dialog/-/vaadin-dialog-2.4.5.tgz#1ba3d3681bb37c0fe1189d6cab5fdeaba8414597"
-  integrity sha512-mkzGPvCzU2nBn+c1Lm8mz1QO9QdUG1znGGvIMLAB60H8kAaXfDzp5Ng0r9QTklbNQ7WX+7pYsgQbocv42LbuKA==
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@vaadin/vaadin-dialog/-/vaadin-dialog-2.5.2.tgz#e4346bf45569c3dd799a14c9c13c5bd6c612bbfa"
+  integrity sha512-rnJtP+3b4SpnAvTrlVcck87Hd5TMSVtGyOrL8S9tlemGeDfoQaZ3Tqia/atSQaHAkUzdW/b5MAA8ENmdKDDJpg==
   dependencies:
     "@polymer/iron-resizable-behavior" "^3.0.0"
     "@polymer/polymer" "^3.0.0"
-    "@vaadin/vaadin-element-mixin" "^2.3.0"
+    "@vaadin/vaadin-element-mixin" "^2.4.1"
     "@vaadin/vaadin-lumo-styles" "^1.6.0"
     "@vaadin/vaadin-material-styles" "^1.3.2"
-    "@vaadin/vaadin-overlay" "^3.4.0"
-    "@vaadin/vaadin-themable-mixin" "^1.5.2"
+    "@vaadin/vaadin-overlay" "^3.5.0"
+    "@vaadin/vaadin-themable-mixin" "^1.6.1"
 
 "@vaadin/vaadin-element-mixin@^2.3.0", "@vaadin/vaadin-element-mixin@^2.4.0", "@vaadin/vaadin-element-mixin@^2.4.1":
   version "2.4.2"
@@ -3009,7 +3009,7 @@
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@vaadin/vaadin-overlay@^3.4.0":
+"@vaadin/vaadin-overlay@^3.5.0":
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/@vaadin/vaadin-overlay/-/vaadin-overlay-3.5.1.tgz#c4391b3c6c1f7a512b0a6f0dd96f11480feed402"
   integrity sha512-0g+poK/BXF92L2lSKrHMY5rcKzUxCBZNzP/NDwgi4a86nbjL7CAKKZdno7Yl+j8UsTR76nOEw4fAYTFi86B0qg==
