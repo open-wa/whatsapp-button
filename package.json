@@ -55,7 +55,7 @@
     "es-dev-server": "^1.5.0",
     "eslint": "^7.1.0",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
+    "lint-staged": "^11.0.0",
     "webpack-merge": "^5.0.8",
     "storybook-addon-web-components-knobs": "^0.3.1"
   },
