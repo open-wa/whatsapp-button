@@ -38,7 +38,7 @@
     "@vaadin/vaadin-button": "^2.3.0",
     "@vaadin/vaadin-dialog": "^2.4.1",
     "@vaadin/vaadin-progress-bar": "^2.0.0-alpha1",
-    "lit-element": "^2.0.1",
+    "lit-element": "^3.0.0",
     "lit-html": "^1.0.0"
   },
   "devDependencies": {
