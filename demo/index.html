@@ -2,7 +2,6 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <!-- <script type="module" src="https://unpkg.com/x-frame-bypass"></script> -->
   <style>
     body {
       background: #fafafa;
@@ -11,13 +10,14 @@
 </head>
 <body>
   <div id="demo"></div>
+
   <script type="module">
-    import { html, render } from 'lit-html';
-    import '../whatsapp-button.js';
+    import { html, render } from 'lit';
+    import '../dist/src/whatsapp-button.js';
 
     render(
       html`
-        <whatsapp-button phone="7712345678" dialcode="44" text="hey there lets chat!" label="Let's Talk" bypass responsive>
+      <whatsapp-button phone="7712345678" dialog dialcode="44" text="hey there lets chat!" label="Let's Talk" responsive>
         </whatsapp-button>
       `,
       document.querySelector('#demo')

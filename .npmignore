@@ -1,0 +1,37 @@
+## editors
+/.idea
+/.vscode
+
+## system files
+.DS_Store
+
+## npm
+/node_modules/
+/npm-debug.log
+
+## testing
+/coverage/
+
+## temp folders
+/.tmp/
+
+# build
+/_site/
+/dist/
+/demo
+.png
+*.md
+/src
+/stories
+/test
+*.mjs
+tsconfig.json
+/.github
+/.storybook
+*.toml
+.editorconfig
+.prettierignore
+button-demo.png
+/dist/stories
+/dist/test
+LICENSE

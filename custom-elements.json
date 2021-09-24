@@ -1,56 +1,396 @@
 {
-  "version": 2,
-  "tags": [
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
     {
-      "name": "whatsapp-button",
-      "description": "A simple button to start a whatsapp conversation.",
-      "properties": [
+      "kind": "javascript-module",
+      "path": "src/WhatsappButton.ts",
+      "declarations": [
         {
-          "name": "label",
-          "type": "String",
-          "description": "This is the label given to the button",
-          "default": "Let's talk!"
-        },
-        {
-          "name": "text",
-          "type": "String",
-          "description": "The message sent to the number",
-          "default": ""
-        },
-        {
-          "name": "dialcode",
-          "type": "String",
-          "description": "This international dialing code for the number. (E.g 44 for a UK number)",
-          "default": ""
-        },
-        {
-          "name": "number",
-          "type": "String",
-          "description": "The number to which to start the conversation with and send the text",
-          "default": ""
-        },
-        {
-          "name": "responsive",
-          "type": "Boolean",
-          "description": "If true, the component will automatically stick to the bottom of the screen on mobile devices for a clean responsive look.",
-          "default": false
-        },
-        {
-          "name": "bypass",
-          "type": "Boolean",
-          "description": "If true, the component will show a dialog and try to open whatsapp itself instead of redirecting via WhatsApps ugly page.",
-          "default": false
+          "kind": "class",
+          "description": "",
+          "name": "WhatsappButton",
+          "members": [
+            {
+              "kind": "field",
+              "name": "phone",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "phone",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "text",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "text",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "link",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "link",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "appLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "appLink",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "dialcode",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "dialcode",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "invitecode",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "invitecode",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "responsive",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "responsive",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "redirect",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "redirect",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "leading",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "leading",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "dialog",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "dialog",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "_showButtonInDialog",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "_showButtonInDialog",
+              "reflects": true
+            },
+            {
+              "kind": "method",
+              "name": "loadingDialog"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "default": "`Let's chat`"
+            },
+            {
+              "kind": "field",
+              "name": "outlined",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "true"
+            },
+            {
+              "kind": "field",
+              "name": "trailingIcon",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "true"
+            },
+            {
+              "kind": "field",
+              "name": "onclick",
+              "default": "() => {\n      fireGaClick();\n      if(this.dialog) this.loadingDialog();\n      if (this.redirect) {\n        window.open(this.link);\n      } else\n        window.open(this.appLink);\n    }"
+            },
+            {
+              "kind": "field",
+              "name": "click"
+            },
+            {
+              "kind": "field",
+              "name": "tap"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "phone",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "phone"
+            },
+            {
+              "name": "text",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "text"
+            },
+            {
+              "name": "link",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "link"
+            },
+            {
+              "name": "appLink",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "appLink"
+            },
+            {
+              "name": "dialcode",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "dialcode"
+            },
+            {
+              "name": "invitecode",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "invitecode"
+            },
+            {
+              "name": "responsive",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "responsive"
+            },
+            {
+              "name": "redirect",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "redirect"
+            },
+            {
+              "name": "leading",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "leading"
+            },
+            {
+              "name": "dialog",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "dialog"
+            },
+            {
+              "name": "_showButtonInDialog",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "_showButtonInDialog"
+            }
+          ],
+          "superclass": {
+            "name": "Button",
+            "package": "@material/mwc-button"
+          },
+          "tagName": "whatsapp-button",
+          "customElement": true
         }
       ],
-      "events": [],
-      "slots": [],
-      "cssProperties": [
+      "exports": [
         {
-          "name": "--whatsapp-button-text-color",
-          "description": "Main Text Color",
-          "type": "Color"
+          "kind": "js",
+          "name": "WhatsappButton",
+          "declaration": {
+            "name": "WhatsappButton",
+            "module": "src/WhatsappButton.ts"
+          }
         }
       ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "WhatsappButton",
+          "declaration": {
+            "name": "WhatsappButton",
+            "module": "./WhatsappButton.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/whatsapp-button.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "whatsapp-button",
+          "declaration": {
+            "name": "WhatsappButton",
+            "module": "/src/WhatsappButton.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "stories/index.stories.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "Regular"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomLabel"
+        },
+        {
+          "kind": "variable",
+          "name": "CustomMessage"
+        },
+        {
+          "kind": "variable",
+          "name": "ResponsiveButton"
+        },
+        {
+          "kind": "variable",
+          "name": "LeadingButton"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "stories/index.stories.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Regular",
+          "declaration": {
+            "name": "Regular",
+            "module": "stories/index.stories.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomLabel",
+          "declaration": {
+            "name": "CustomLabel",
+            "module": "stories/index.stories.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "CustomMessage",
+          "declaration": {
+            "name": "CustomMessage",
+            "module": "stories/index.stories.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "ResponsiveButton",
+          "declaration": {
+            "name": "ResponsiveButton",
+            "module": "stories/index.stories.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "LeadingButton",
+          "declaration": {
+            "name": "LeadingButton",
+            "module": "stories/index.stories.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "coverage/lcov-report/block-navigation.js",
+      "declarations": [],
+      "exports": []
+    },
+    {
+      "kind": "javascript-module",
+      "path": "coverage/lcov-report/prettify.js",
+      "declarations": [],
+      "exports": []
+    },
+    {
+      "kind": "javascript-module",
+      "path": "coverage/lcov-report/sorter.js",
+      "declarations": [],
+      "exports": []
     }
   ]
 }
