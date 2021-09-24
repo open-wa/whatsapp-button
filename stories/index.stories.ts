@@ -67,6 +67,11 @@ CustomMessage.args = {
   text: 'Custom message',
 };
 
+export const GroupInvite = Template.bind({});
+GroupInvite.args = {
+  invitecode: 'EC6fNhC5mjZBKyW9jxxxxx',
+};
+
 export const ResponsiveButton = Template.bind({});
 ResponsiveButton.args = {
   responsive: true,

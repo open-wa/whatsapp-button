@@ -175,7 +175,7 @@ export class WhatsappButton extends Button {
   }
 
   firstUpdated() {
-    this.label = this.label || `Let's chat`;
+    this.label = this.label || this.invitecode ? 'Join Group!' : `Let's chat`;
     this.phone = this.phone || ``;
     this.text = this.text || `Hi!`;
     const pre = this.invitecode
