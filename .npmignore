@@ -37,3 +37,4 @@ button-demo.png
 LICENSE
 /storybook-static
 /docs
+*.tsbuildinfo
