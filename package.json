@@ -38,7 +38,7 @@
     "lit": "^2.0.0-rc.3"
   },
   "devDependencies": {
-    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@custom-elements-manifest/analyzer": "^0.5.3",
     "@open-wc/eslint-config": "^4.3.0",
     "@open-wc/testing": "next",
     "@storybook/storybook-deployer": "^2.8.10",
