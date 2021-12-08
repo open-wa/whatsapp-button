@@ -34,7 +34,7 @@
     "@material/mwc-button": "^0.25.1",
     "@vaadin/vaadin-button": "^21.0.1",
     "@vaadin/vaadin-dialog": "^21.0.1",
-    "@vaadin/vaadin-progress-bar": "^21.0.1",
+    "@vaadin/vaadin-progress-bar": "^22.0.1",
     "lit": "^2.0.0-rc.3"
   },
   "devDependencies": {
