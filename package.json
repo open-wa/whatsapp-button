@@ -31,7 +31,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@material/mwc-button": "^0.25.1",
+    "@material/mwc-button": "^0.26.0",
     "@vaadin/vaadin-button": "^21.0.1",
     "@vaadin/vaadin-dialog": "^21.0.1",
     "@vaadin/vaadin-progress-bar": "^21.0.1",
