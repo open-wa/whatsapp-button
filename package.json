@@ -47,7 +47,7 @@
     "@web/dev-server": "^0.1.22",
     "@web/dev-server-storybook": "next",
     "@web/test-runner": "next",
-    "concurrently": "^6.2.1",
+    "concurrently": "^7.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.2",
